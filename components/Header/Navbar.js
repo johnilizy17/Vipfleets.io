@@ -1,0 +1,81 @@
+import React, { useState } from 'react';
+import Image from 'next/image';
+import logo from '../../asset/logo.png';
+import { BiSearchAlt } from "react-icons/bi";
+import { HiMenuAlt3 } from 'react-icons/hi';
+import { FiX } from 'react-icons/fi';
+import Link from'next/link';
+import Navbutton from './Navbutton'
+import NavSlider from './NavSlider'
+import {Card} from '@mui/material'
+
+export default function Navbar() {
+
+    const [menubar, setmenubar] = useState(true);
+
+    return (
+        <>
+            <div className="md:hidden  sm:hidden lg:flex flex-row items-center bg-white-color mb-10 pl-20 pt-2 pr-20">
+                <Link passHref={true} href="/">
+                    <div className="basis-1/3 cursor-pointer" >
+                        <Image src={logo} alt="vipfleets logo" width={70} height={70} />
+                    </div>
+                </Link>
+                <div className="basis-full flex">
+                    <div className="flex flex-row items-center justify-between" style={{flex:0.7}}>
+                    <Navbutton name="Home" links="/"/>
+                    <Navbutton name="Hire a ride" links="/ride"/>
+                    <Navbutton name="Teams" links="/teams"/>
+                    <Navbutton name="Policy" links="/policy"/>
+                    <Navbutton name="FAQ" links="/FAQ"/>
+                    <Navbutton name="About" links="/about"/>
+                    </div>
+                </div>
+                <div className="flex flex-row items-center justify-between">
+                    <BiSearchAlt className="mr-10 cursor-pointer" />
+                    <select>
+                        <option className="font-semibold cursor-pointer">EN</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div className="lg:hidden sm:flex m-5 items-center">
+                    <div className="basis-full">
+                        <Link passHref={true} href="/">
+                            <div className="cursor-pointer" >
+                                <Image src={logo} alt="vipfleets logo" width={50} height={50} />
+                            </div>
+                        </Link>
+                    </div>
+                    <div onClick={() => {
+                        if (menubar) {
+                            setmenubar(false)
+                        } else {
+                            setmenubar(true)
+                        }
+                    }}>
+                        {menubar ? <HiMenuAlt3 style={{ width: 50, height: 50 }} />
+                            : <FiX style={{ width: 50, height: 50, color:"#3e4095" }} />}
+                    </div>
+                </div>
+                {!menubar &&
+                <div className="lg:hidden z-50 w-screen top-20 fixed">
+                    <div className="flex flex-col pl-2 basis-2/3 pb-10  bg-white-color font-semibold" style={{width:"100%"}}>
+                    <NavSlider links= "/" name="Home"/>
+                    <NavSlider links= "/ride" name="Hire a Ride"/>
+                    <NavSlider name="Policy" links="/policy"/>
+                    <NavSlider links= "/teams" name="teams"/>
+                    <NavSlider links= " /FAQ" name="FAQ"/>
+                    <NavSlider links= "/about" name="About"/>
+                    <div className="flex flex-row pl-2 pb-5 items-center justify-between">
+                    <select>
+                        <option className="font-semibold cursor-pointer">EN</option>
+                    </select>
+                    </div>
+                    </div>
+                    </div>
+                    }
+            </div>
+        </>
+    )
+}
