@@ -8,7 +8,7 @@ export default function News() {
     return (
         <div className="font-serif bg-grey pb-5 pt-5 font-semibold" >
             <div className="flex lg:ml-20 lg:mr-20 sm:mr-5 sm:ml-5">
-                <div className="basis-1/5" >
+                <div className="basis-1/5 mr-5" >
                     <Link passHref={true} href="/">
                         <Image
                             src={Logo}
