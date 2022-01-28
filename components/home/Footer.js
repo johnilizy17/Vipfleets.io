@@ -5,7 +5,7 @@ import {IoIosCall} from 'react-icons/io'
 export default function Footer(){
     return(
         <>
-        <div className="sm:hidden pt-20 mt-20 p-40 ml flex">
+        <div className="sm:hidden pt-20 mt-20 p-20 ml flex">
           <div className="font-semibold basis-2/4 text-lg">
            Contact Our Experts through
            <br/> the following means 
@@ -17,7 +17,7 @@ export default function Footer(){
          You can locate us at Corporate Head Office,Bakky Plaza, Agungi, Lekki Express Way Lagos, Nigeria
          </div>
          <div className="mt-5 ml-7">
-           Click here to use google map to get to our Office <Button className="ml-10 bg-google text-white-color">Google Map</Button>
+           Click here to use google map to get to our Office <button className="ml-10 bg-google p-2 rounded-md text-white-color">Google Map</button>
           </div>
           <div className="mt-10 ml-7">
            Contact US Through our mails:
@@ -60,7 +60,7 @@ export default function Footer(){
          You can locate us at Corporate Head Office,Bakky Plaza, Agungi, Lekki Express Way Lagos, Nigeria
          </div>
          <div className="mt-5 ml-7">
-           Click here to use google map to get to our Office <Button className="ml-10 bg-google text-white-color">Google Map</Button>
+           Click here to use google map to get to our Office <button className="lg:ml-5 p-2 bg-google text-white-color">Google Map</button>
           </div>
           <div className="mt-10 ml-7">
            Contact US Through our mails:

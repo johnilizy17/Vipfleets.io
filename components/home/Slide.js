@@ -12,7 +12,7 @@ import { MdLocalAirport, MdOutlineLocationOn } from 'react-icons/md'
 export default function Slide() {
     return (
         <div>
-            <div className="flex flex-row h-20 z-50 " style={{ position: "relative", width: "96vw" }}>
+            <div className="flex flex-row h-20 z-10 " style={{ position: "relative", width: "96vw" }}>
                 <div className="basis-2/4 sm:basis-3/4 flex bg-brand-color justify-center items-center mt-10 " style={{ marginBottom: -40 }}>
 
                     <div className="flex justify-around w-3/4" style={{color:"#ffffff"}}>

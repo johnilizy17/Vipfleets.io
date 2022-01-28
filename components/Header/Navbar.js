@@ -28,7 +28,7 @@ export default function Navbar() {
                     <Navbutton name="Teams" links="/teams"/>
                     <Navbutton name="Policy" links="/policy"/>
                     <Navbutton name="FAQ" links="/FAQ"/>
-                    <Navbutton name="About" links="/about"/>
+                    <Navbutton name="Airport" links="/airport"/>
                     </div>
                 </div>
                 <div className="flex flex-row items-center justify-between">
@@ -66,7 +66,7 @@ export default function Navbar() {
                     <NavSlider name="Policy" links="/policy"/>
                     <NavSlider links= "/teams" name="teams"/>
                     <NavSlider links= " /FAQ" name="FAQ"/>
-                    <NavSlider links= "/about" name="About"/>
+                    <NavSlider links= "/airport" name="Airport"/>
                     <div className="flex flex-row pl-2 pb-5 items-center justify-between">
                     <select>
                         <option className="font-semibold cursor-pointer">EN</option>

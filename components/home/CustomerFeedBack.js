@@ -21,10 +21,10 @@ export default function CustomerFeedBack() {
                 </div>
                 <div className="basis-1/5"/>
                 <div className="basis-2/5">
-                    <div className="w-4/5 float-right mb-2 m-40 mt-10">
+                    <div className="w-4/5 float-right mb-2 m-20 mt-10">
                         At <span className="text-brand-color font-semibold">VIP FLEETS </span>, as much as revenue is crucial to our growth and development, so is good customer service and client experience.
                     </div>
-                    <div className="w-4/5 float-right m-40 mb-5 mt-0">
+                    <div className="w-4/5 float-right m-20 mb-5 mt-0">
                         Since our launch, we have been privileged to chauffeur uncountable clients. Our team were able to get conduct reviews on our client experiences.<br />
                         <span className="text-xs">
                             (Visit our <a href="https://www.instagram.com/vipfleets" className="text-brand-color">IG page VIPFLEETS,</a> for customer feedback of exact reviews).
@@ -44,31 +44,31 @@ export default function CustomerFeedBack() {
                             >
 
                                 <div>
-                                    {"Thank you for the outstanding service as always"}
+                                    {`" Thank you for the outstanding service as always "`}
                                 </div>
                                 <div>
-                                    {"Service great, drivers professional, very punctual"}
+                                    {`" Service great, drivers professional, very punctual "`}
                                 </div>
                                 <div>
-                                    {"The vehicle’s absolutely fantastic, quality as always"}
+                                    {`" The vehicle’s absolutely fantastic, quality as always "`}
                                 </div>
                                 <div>
-                                    {"Great customer service, I’m impressed"}
+                                    {`" Great customer service, I’m impressed "`}
                                 </div>
                                 <div>
-                                    {"Great driving experience with your drivers"}
+                                    {`" Great driving experience with your drivers "`}
                                 </div>
                                 <div>
-                                    {"You have the best driver, well trained"}
+                                    {`" You have the best driver, well trained "`}
                                 </div>
                                 <div>
-                                   {"“...you guys are the best, your service is great, and your driver is cool"}
+                                   {`" ...you guys are the best, your service is great, and your driver is cool "`}
                                </div>
                                 <div>
-                                    {"Your driver was really nice and humble; I look forward to more business with you"}
+                                    {`" Your driver was really nice and humble; I look forward to more business with you"`}
                                </div>
                                 <div>
-                                    {" Thank you very much, it was a smooth ride with your escort to and fro. I won’t hesitate to book VIP FLEETS on my next journey"}
+                                    {`" Thank you very much, it was a smooth ride with your escort to and fro. I won’t hesitate to book VIP FLEETS on my next journey"`}
                                </div>
                             </Carousel>
                         </div>
@@ -76,7 +76,7 @@ export default function CustomerFeedBack() {
                             Customer Feedback
                         </div>
                     </div >
-                    <div className="w-4/5 float-right mb-2 mt-2 m-40">
+                    <div className="w-4/5 float-right mb-2 mt-2 m-20">
                         Our management team would love to hear from you, whether it is to share your experiences or just to motive us, send us a quick email to<a href="mailto:feedback@vipfleets.io" className="text-brand-color"> feedback@vipfleets.io.</a>
                         <span className="text-xs"><br /> (opps they sometimes get carried away attending to numerous of hire request daily, don’t worry we always respond)</span>
 
@@ -119,31 +119,31 @@ export default function CustomerFeedBack() {
                             >
 
                                 <div>
-                                    {"Thank you for the outstanding service as always"}
+                                    {`" Thank you for the outstanding service as always "`}
                                 </div>
                                 <div>
-                                    {"Service great, drivers professional, very punctual"}
+                                    {`" Service great, drivers professional, very punctual "`}
                                 </div>
                                 <div>
-                                    {"The vehicle’s absolutely fantastic, quality as always"}
+                                    {`" The vehicle’s absolutely fantastic, quality as always "`}
                                 </div>
                                 <div>
-                                    {"Great customer service, I’m impressed"}
+                                    {`" Great customer service, I’m impressed "`}
                                 </div>
                                 <div>
-                                    {"Great driving experience with your drivers"}
+                                    {`" Great driving experience with your drivers "`}
                                 </div>
                                 <div>
-                                    {"You have the best driver, well trained"}
+                                    {`" You have the best driver, well trained "`}
                                 </div>
                                 <div>
-                                    {"“...you guys are the best, your service is great, and your driver is cool"}
+                                    {`" ...you guys are the best, your service is great, and your driver is cool "`}
                                </div>
                                 <div>
-                                    {"Your driver was really nice and humble; I look forward to more business with you"}
+                                    {`" Your driver was really nice and humble; I look forward to more business with you "`}
                                </div>
                                 <div>
-                                    {" Thank you very much, it was a smooth ride with your escort to and fro. I won’t hesitate to book VIP FLEETS on my next journey"}
+                                    {`" Thank you very much, it was a smooth ride with your escort to and fro. I won’t hesitate to book VIP FLEETS on my next journey"`}
                                </div>
                             </Carousel>
                         </div>

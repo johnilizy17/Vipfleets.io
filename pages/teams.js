@@ -16,7 +16,7 @@ export default function Teams() {
                         {"Customer service is not a department, it's everyone's job"}
             </div>
                 </div>
-                <div className="lg:flex lg:ml-20 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
+                <div className=" lg:ml-20 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
                     <div className="lg:basis-2/6">
                         Every member of our team, which include the chairman, board of directors, investors, partners and operational team, play a vital role within our expanding organisation. Each member of our team is relevant to us.
              </div>
@@ -32,15 +32,15 @@ export default function Teams() {
                 </div>
                         <div className="sm:mt-2">
                             <ol>
-                                <li>Operations</li>
-                                <li>Station Controller</li>
-                                <li>Marketing Officer</li>
-                                <li>Office Administration</li>
-                                <li>Human Resources</li>
-                                <li>Accounting Officer</li>
-                                <li>Logistics <span className="italic text-xs">(We only recruit VALID licence drivers here at VIP FLEEST). </span></li>
-                                <li className="mt-2">ICT </li>
-                                <li>Social Media Guru</li>
+                                <li> <span>1. </span> Operations</li>
+                                <li> <span>2. </span> Station Controller</li>
+                                <li> <span>3. </span> Marketing Officer</li>
+                                <li> <span>4. </span> Office Administration</li>
+                                <li> <span>5. </span> Human Resources</li>
+                                <li> <span>6. </span> Accounting Officer</li>
+                                <li> <span>7. </span> Logistics <span className="italic text-xs">(We only recruit VALID licence drivers here at VIP FLEEST). </span></li>
+                                <li className="mt-2"><span>8. </span> ICT </li>
+                                <li> <span>9. </span> Social Media Guru</li>
                                 
                                 <li className="mt-2">please send your C.V to <a href="mailto:joinus@vipfleets.io" className="text-brand-color">joinus@vipfleets.io</a> today.</li>
                                 

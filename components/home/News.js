@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Logo from '../../asset/logo.png';
 import Link from 'next/link';
 import Pages from './Pages';
-import { BsInstagram, BsTwitter, BsFacebook, BsLinkedin } from 'react-icons/bs';
+import { BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
 
 export default function News() {
     return (
@@ -18,14 +18,16 @@ export default function News() {
                         />
                     </Link>
                 </div>
-                <div className="sm:flex sm:justify-center" style={{flex:1}}>
+                <div className="sm:flex sm:justify-center" style={{ flex: 1 }}>
                     <div className="lg:grid lg:grid-cols-3 lg:grap-2">
                         <Pages name="Hire a Ride" routes="/ride" />
                         <Pages name="Teams" routes="/teams" />
-                        <Pages name="Policy" routes="/policies" />
+                        <Pages name="Policy" routes="/policy" />
                         <Pages name="FAQ" routes="/FAQ" />
-                        <Pages name="About" routes="/about" />
-                        <Pages name="Partner & Special offer" routes="/parter_special_offer" />
+                        <Pages name="Airport" routes="/airport" />
+                        <Pages name="Fleets" routes="/fleets" />
+                        <Pages name="Partner with us" routes="/partner" />
+                        <Pages name="Special Offer" routes="/special_offer" />
                     </div>
                 </div>
                 <div>
@@ -37,9 +39,6 @@ export default function News() {
                             </a>
                             <a className="mr-5" href="">
                                 <BsTwitter />
-                            </a>
-                            <a className="mr-5" href="">
-                                <BsFacebook />
                             </a>
                             <a className="mr-5" href="">
                                 <BsLinkedin />

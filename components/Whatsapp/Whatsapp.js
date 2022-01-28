@@ -9,7 +9,7 @@ export default function Whatsapp(){
         loop
         animationData={WhatsappLoading}
         play
-        className="sm:w-20 sm:h-20 lg:w-40 lg:h-40"
+        className="sm:w-20 sm:h-20 lg:w-20 lg:h-20"
     />
     </a>
     )

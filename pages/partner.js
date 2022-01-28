@@ -3,9 +3,9 @@ import News from '../components/home/News';
 
 
 
-export default function Parter_special_offer(){
+export default function Partner(){
         return(
-            <div>
+            <div className="font-serif">
                <Navbar/> 
             </div>
         )
