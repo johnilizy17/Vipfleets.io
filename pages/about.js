@@ -44,7 +44,7 @@ export default function About() {
                         <div className="flex w-4/5 justify-between">
                             <Card className="bg-snow w-2/5 p-5">
                                 <div>
-                                    Do you want special offer from VIP FLEETS
+                                    {"Do you want special offer from VIP FLEETS?"}
                                 </div>
                                 <div className="flex text-xs italic mt-5 text-brand-color cursor-pointer">
                                   <div style={{flex:0.7}}>Click here </div> <AiOutlineArrowRight/>
@@ -52,7 +52,7 @@ export default function About() {
                             </Card>
                             <Card className="bg-snow w-2/5 p-5">
                                 <div>
-                                    Do you want to partner offer from VIP FLEETS
+                                   {" Do you want to partner with VIP FLEETS?"}
                                 </div>
                                 <div className="flex text-xs italic mt-5 text-brand-color cursor-pointer">
                                    <div style={{flex:0.7}}>Click here </div> <AiOutlineArrowRight/>
