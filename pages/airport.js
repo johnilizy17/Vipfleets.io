@@ -2,6 +2,7 @@ import Navbar from '../components/Header/Navbar'
 import Link from 'next/link'
 import { Button, Card } from '@mui/material'
 import map from '../asset/map.png'
+import airport from '../asset/airport.jpg'
 import Image from 'next/image'
 import { AiOutlineDownload, AiOutlineArrowRight } from 'react-icons/ai';
 import News from '../components/home/News'
@@ -11,11 +12,14 @@ export default function About() {
         <>
             <div className="font-serif">
                 <Navbar />
-                <div className=" lg:m-20 lg:mt-20 lg:mb-10 sm:m-5 sm:mb-10">
+                <Image src={airport} alt="the teams image" />
+                <div className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
+                    <div className="font-semibold text-5xl">
+                    Airport pick and drop:
+              </div>
+              </div>
+                <div className=" lg:m-20 lg:mt-20 relative lg:bottom-20 sm:bottom-20 lg:mb-10 sm:m-5 sm:mb-10">
                     <div className="basis-2/5">
-                        <div className="font-semibold text-4xl">
-                        Airport pick and drop:
-                   </div>
                         <div className="mt-5">
                         Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.
                    </div>
@@ -29,21 +33,25 @@ export default function About() {
                        </div>
                     <div className="mt-5 flex  items-center">
                         <div className="flex w-full justify-between">
-                            <Card className="bg-snow w-2/6 p-5">
-                                <div>
+                            <Card className="bg-snow flex flex-col w-2/6 p-5">
+                                <div style={{flex:1}}>
                                     {"Do you want special offer from VIP FLEETS?"}
                                 </div>
+                                <Link passHref={true} href="/special_offer">
                                 <div className="flex text-xs italic mt-5 text-brand-color cursor-pointer">
                                   <div style={{flex:0.7}}>Click here </div> <AiOutlineArrowRight/>
                                 </div>
+                                </Link>
                             </Card>
-                            <Card className="bg-snow w-2/5 p-5">
-                                <div>
+                            <Card className="bg-snow flex flex-col w-2/5 p-5">
+                                <div style={{flex:1}}>
                                    {" Do you want to partner with VIP FLEETS?"}
                                 </div>
+                                <Link passHref={true} href="/partner">
                                 <div className="flex text-xs italic mt-10 text-brand-color cursor-pointer">
                                    <div style={{flex:0.7}}>Click here </div> <AiOutlineArrowRight/>
                                 </div>
+                                </Link>
                             </Card>
                         </div>
                     </div>

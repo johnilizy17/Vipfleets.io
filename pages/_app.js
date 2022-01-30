@@ -35,8 +35,17 @@ function MyApp({ Component, pageProps }) {
       <Marquee 
       gradient={false}
       style={{width:"100%"}}>
+      <div className="w-4/4 text-white-color font-semibold mr-40 ml-40">
+          ---NEWS FLASH---  
+        </div>
       <div className="w-4/4 text-white-color font-semibold">
-       Vip Fleets airport pickup and drop is coming soon on playstore and apple store
+          Vip Fleets airport pickup and drop is coming soon on playstore and apple store
+        </div>
+      <div className="w-4/4 text-white-color font-semibold ml-40 mr-40">
+         ---NEWS FLASH---
+        </div>
+        <div className="w-4/4 text-white-color font-semibold">
+          We operate in Abuja, Lagos and Port Harcourt 
         </div>
       </Marquee>
       </div>

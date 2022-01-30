@@ -14,7 +14,9 @@ module.exports = {
   'white-color': '#ffffff',
   "grey":"#eaeff0",
   "google":"#ee6459",
-  "snow":"#fafafa"
+  "snow":"#fafafa",
+  "black":"#000",
+  "form":"#808080"
 },
   },
   plugins: ["tailwindcss",  ],

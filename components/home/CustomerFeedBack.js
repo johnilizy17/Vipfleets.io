@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
-import customer2 from '../../asset/customer2.jpg'
+import customer2 from '../../asset/customerfeed.jpg'
 import customer from '../../asset/customer.jpg'
 import { Card } from '@mui/material'
 import { AiOutlineDoubleRight } from 'react-icons/ai'
@@ -10,7 +10,7 @@ export default function CustomerFeedBack() {
         <>
             <div className=" sm:hidden flex flex-row ">
                 <div className="basis-2/5">
-                    <div className=" mb-5 ml-40 flex items-center text-xl font-semibold text-brand-color">
+                    <div className=" mb-5 ml-20 flex items-center text-xl font-semibold text-brand-color">
                         <div style={{ flex: 1 }}>  Customer feedback </div> <AiOutlineDoubleRight />
                     </div>
                     <div className=" sm:hidden  flex  flex-row basis-3/3" >

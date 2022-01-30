@@ -1,5 +1,5 @@
 import Navbar from '../components/Header/Navbar';
-import teamspicture from '../asset/SlideImage/image4.jpg';
+import teamspicture from '../asset/teams3.jpg';
 import Image from 'next/image'
 import News from '../components/home/News'
 export default function Teams() {
@@ -8,7 +8,7 @@ export default function Teams() {
             <div className="font-serif  pb-5">
                 <Navbar />
                 <Image src={teamspicture} alt="the teams image" />
-                <div className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-40 sm:bottom-32">
+                <div className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
                     <div className="font-semibold text-5xl">
                         Team
               </div>

@@ -7,7 +7,7 @@ import { BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
 export default function News() {
     return (
         <div className="font-serif bg-grey pb-5 pt-5 font-semibold" >
-            <div className="flex lg:ml-20 lg:mr-20 sm:mr-5 sm:ml-5">
+            <div className="flex sm:flex-col-reverse lg:ml-20 lg:mr-20 sm:mr-5 sm:ml-5">
                 <div className="basis-1/5 mr-5" >
                     <Link passHref={true} href="/">
                         <Image
@@ -18,8 +18,8 @@ export default function News() {
                         />
                     </Link>
                 </div>
-                <div className="sm:flex sm:justify-center" style={{ flex: 1 }}>
-                    <div className="lg:grid lg:grid-cols-3 lg:grap-2">
+                <div className="sm:flex" style={{ flex: 1 }}>
+                    <div className="grid sm:grid-cols-4 sm:text-xs  lg:grid-cols-3 lg:grap-2">
                         <Pages name="Hire a Ride" routes="/ride" />
                         <Pages name="Teams" routes="/teams" />
                         <Pages name="Policy" routes="/policy" />
@@ -31,9 +31,9 @@ export default function News() {
                     </div>
                 </div>
                 <div>
-                    <div className="float-right  basis-2/5">
+                    <div className="lg:float-right  basis-2/5">
                         Follow us
-                        <div className="flex justify-between items-center mt-2">
+                        <div className="flex justify-between items-center sm:w-1/4  sm:mb-5 mt-2">
                             <a className="mr-5" href="">
                                 <BsInstagram />
                             </a>
