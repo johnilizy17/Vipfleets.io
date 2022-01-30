@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Navbar from '../components/Header/Navbar';
-import teamspicture from '../asset/SlideImage/image4.jpg';
+import teamspicture from '../asset/business.jpg';
 import Image from 'next/image'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import Avarter from '../asset/Avarter.jpg';
