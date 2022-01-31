@@ -107,7 +107,7 @@ export default function CustomerFeedBack() {
                     <div className="bg-brand-color text-justify pt-20 h-60 text-white-color" >
                         <div style={{width:"100%",height:100, display:"grid", justifyContent:"center", alignItems:"center" }}>
                             <Carousel
-                                width={300}
+                                width={400}
                                 showStatus={false}
                                 showArrows={false}
                                 showThumbs={false}
@@ -118,31 +118,31 @@ export default function CustomerFeedBack() {
                             >
 
                                 <div>
-                                    {`" Thank you for the outstanding service as always "`}
+                                    {`"Thank you for the outstanding service as always"`}
                                 </div>
                                 <div>
-                                    {`" Service great, drivers professional, very punctual "`}
+                                    {`"Service great, drivers professional, very punctual"`}
                                 </div>
                                 <div>
-                                    {`" The vehicle’s absolutely fantastic, quality as always "`}
+                                    {`"The vehicle’s absolutely fantastic, quality as always"`}
                                 </div>
                                 <div>
-                                    {`" Great customer service, I’m impressed "`}
+                                    {`"Great customer service, I’m impressed"`}
                                 </div>
                                 <div>
-                                    {`" Great driving experience with your drivers "`}
+                                    {`"Great driving experience with your drivers"`}
                                 </div>
                                 <div>
-                                    {`" You have the best driver, well trained "`}
+                                    {`"You have the best driver, well trained"`}
                                 </div>
                                 <div>
-                                    {`" ...you guys are the best, your service is great, and your driver is cool "`}
+                                    {`"...you guys are the best, your service is great, and your driver is cool"`}
                                </div>
                                 <div>
-                                    {`" Your driver was really nice and humble; I look forward to more business with you "`}
+                                    {`"Your driver was really nice and humble; I look forward to more business with you"`}
                                </div>
                                 <div>
-                                    {`" Thank you very much, it was a smooth ride with your escort to and fro. I won’t hesitate to book VIP FLEETS on my next journey"`}
+                                    {`"Thank you very much, it was a smooth ride with your escort to and fro. I won’t hesitate to book VIP FLEETS on my next journey"`}
                                </div>
                             </Carousel>
                         </div>

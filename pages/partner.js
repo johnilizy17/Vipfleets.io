@@ -9,9 +9,11 @@ import { Card } from "@mui/material";
 import Avarter from '../asset/Avarter.jpg';
 import * as Yup from 'yup';
 import {AiOutlineCloudUpload} from 'react-icons/ai'
+import Preview from '../components/home/Preview'
+
 export default function Teams() {
 
-    const [fieldValue, setFieldValue] = useState()
+    const [fieldValue, setFieldValue] = useState([])
 
     function handleSubmit(a) {
         console.log(a)
@@ -106,23 +108,9 @@ export default function Teams() {
                                                     <div className="sm:w-full lg:w-2/4" style={{ color: "red" }}>
                                                         <ErrorMessage name="email" />
                                                     </div>
-                                                    <Dropzone onDrop={acceptedFiles => acceptedFiles.map(d=>{
-                                                        console.log(d.preview)
-                                                    })
-                                                    
-                                                    }>
-                                                        {({ getRootProps, getInputProps }) => (
-                                                            <section>
-                                                                <div {...getRootProps()}>
-                                                                    <input {...getInputProps()} />
-                                                                    <div className="border-2 flex justify-center items-center h-40 mt-5">
-                                                                              <div> Drag or drop image or click to upload image  </div>
-                                                                    </div>
-                                                                </div>
-                                                            </section>
-                                                        )}
-                                                    </Dropzone>
-                                                 <Image src={Avarter} alt="the uploaded image"/>
+                                                    <div className="border-2 flex justify-center items-center h-40 mt-5">
+                                                    <Preview/>
+                                                    </div>
                                                 </div>
                                                 <div className=" mt-5 xl:mt-8 text-center xl:text-left">
                                                     <button className="rounded-md bg-brand-color sm:w-full lg:w-2/4 py-3 px-4 w-full xl:w-32 xl:mr-3 text-white-color align-top" type="submit">Sumbit</button>

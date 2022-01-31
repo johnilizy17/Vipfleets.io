@@ -28,11 +28,11 @@ export default function Airport() {
                             We understand you have choices; therefore, it is important to us that you make <span className="text-brand-color">VIP FLEETS </span> your preferred choice.
                   </div>
 
-                        <div className="mt-5 italic text-justify font-bold">
+                        <div className="mt-5 italic text-justify mb-5 font-bold">
                             ‘We treat our clients like VIPs’.
                   </div>
-                        <div className="text-justify">
-                            Please download the form below to obtain a copy of our most recent price list for the year (2022)
+                        <div className="text-justify ">
+                            Please download the form below to obtain a copy of our most recent price list for the year (2022).
                        </div>
                         <a href="/price.pdf" download="price list.pdf"><button className="p-2 text-justify mt-2 flex items-center bg-brand-color text-white-color rounded-md"> Download Price List <AiOutlineDownload className="ml-5" /></button></a>
                     </div>
