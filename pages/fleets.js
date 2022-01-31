@@ -15,6 +15,9 @@ import Jaguar from '../asset/cars/Jaguar.jpg';
 import LX570 from "../asset/cars/Lexus-LX570.jpg";
 import coaster from "../asset/cars/coaster.jpg";
 import carmary from "../asset/cars/carmary.jpg";
+import SE11 from "../asset/cars/Toyota-Camry-SE-11.webp";
+import Hiace from "../asset/cars/Toyota-Hiace-Bus.jpg";
+import toyotasienna from "../asset/cars/toyota-sienna.webp";
 
 export default function Fleets() {
 
@@ -67,6 +70,23 @@ export default function Fleets() {
         {
             "image":carmary,
             "name": "Carmary"
+        },
+        
+        {
+            "image":Hiace,
+            "name": "Toyota Hiace Bus"
+        },
+        {
+            "image":Hiace,
+            "name": "Toyota Hiace Bus"
+        },
+        {
+            "image":SE11,
+            "name": "Toyota Camry SE 11"
+        },
+        {
+            "image":toyotasienna,
+            "name": "toyota sienna "
         },
     ]
 

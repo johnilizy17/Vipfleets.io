@@ -34,10 +34,10 @@ export default function News() {
                     <div className="lg:float-right  basis-2/5">
                         Follow us
                         <div className="flex justify-between items-center sm:w-1/4  sm:mb-5 mt-2">
-                            <a className="mr-5" href="">
+                            <a className="mr-5" href="https://www.instagram.com/vipfleets/">
                                 <BsInstagram />
                             </a>
-                            <a className="mr-5" href="">
+                            <a className="mr-5" href="https://www.twitter.com/vipfleets/">
                                 <BsTwitter />
                             </a>
                             <a className="mr-5" href="">
