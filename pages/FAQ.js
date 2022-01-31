@@ -10,7 +10,7 @@ export default function FAQ() {
                Frequently Asked Questions
                 </div>
                 <div className="italic text-center mt-2">
-                {"Here are answers to most common questions."}<br/> {"Can't find an answer? Call us!"}
+                {"Here are answers to most common questions."}<br/> {"Can't find an answer?"}<br/>{"Call us!"}
                  </div>
                  <ol className="w-screen list-decimal flex flex-col mt-10 justify-center items-center ">
                 <Questions asked=" Does my hire come with a chauffeur?" result="Yes, all vehicles come with a professional driver. "/>
