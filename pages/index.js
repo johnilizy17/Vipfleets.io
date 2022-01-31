@@ -8,6 +8,7 @@ import News from '../components/home/News';
 import Whatsapp from '../components/Whatsapp/Whatsapp';
 
 export default function Home() {
+  
   return (
     <div className="font-serif  pb-5">
       <Navbar/>

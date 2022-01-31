@@ -11,15 +11,24 @@ export default function Footer(){
            
         </div>
         <div className="mt-20">
-         <FaQuoteLeft className="text-brand-color"/>
-         <div className="ml-7 ">
-         You can locate us at Corporate Head Office,Bakky Plaza, Agungi, Lekki Express Way Lagos, Nigeria
+         <div>
+        <span className="text-brand-color text-lg font-semibold"> Address:
+          </span>
+         <ol type="1">
+             <li className="flex mt-2">
+          Corporate Head Office </li>
+          <li className="flex mt-2">Bakky Plaza </li>
+          <li className="flex mt-2"> Agungi </li>
+          <li className="flex mt-2"> Lekki Express Way Lagos </li>
+          <li className="flex mt-2"> Nigeria</li>
+           </ol>
+
          </div>
-         <div className="mt-5 ml-7">
-           Click here to use google map to get to our Office <button className="ml-10 bg-google p-2 rounded-md text-white-color">Google Map</button>
+         <div className="mt-2">
+           Click here to use google map to get to our Office <button className="ml-10 bg-google p-2  rounded-md text-white-color">Google Map</button>
           </div>
-          <div className="mt-10 ml-7">
-           Contact US Through our mails:
+          <div className="mt-10">
+          <span className="text-brand-color text-lg font-semibold">Contact us through our mails:</span>
            <ol type="1">
              <li className="flex  mt-2">
                General enquiries and hire <a href="mailto:enquire@vipfleets.io" className="text-brand-color flex items-center ml-2">enquire@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
@@ -30,18 +39,21 @@ export default function Footer(){
              <li className="flex  mt-2">
              Recruitment and training <a href="mailto:joinus@vipfleets.io" className="text-brand-color flex items-center ml-2">joinus@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
              </li>
+             <li className="flex  mt-2">
+             Social Media and Advert <a href="mailto:joinus@vipfleets.io" className="text-brand-color flex items-center ml-2">socialmedia@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
+             </li>
            </ol>
           </div>
-          <div className="mt-10 ml-7">
-           Contact US through our order line:
-           <ol type="1" className="text-brand-color">
+          <div className="mt-10">
+          <span className="text-brand-color text-lg font-semibold"> Contact us through our order line:</span>
+           <ol type="1">
              <li className="flex items-center " >
              <IoIosCall/>
-                <a href="callto:enquire@vipfleets.io" className="text-brand-color flex items-center ml-2">0000000000 </a>
+                <a href="callto:enquire@vipfleets.io" className=" flex items-center ml-2">0000000000 </a>
              </li>
              <li className="flex items-center" >
              <IoIosCall/>
-             <a href="callto:feedback@vipfleets.io" className="text-brand-color flex items-center ml-2">000000000 </a>
+             <a href="callto:feedback@vipfleets.io" className=" flex items-center ml-2">000000000 </a>
              </li>
             </ol>
           </div>
@@ -54,37 +66,51 @@ export default function Footer(){
            
         </div>
         <div className="mt-10">
-         <FaQuoteLeft className="text-brand-color"/>
-         <div className="ml-7 ">
-         You can locate us at Corporate Head Office,Bakky Plaza, Agungi, Lekki Express Way Lagos, Nigeria
+         <div>
+         <span className="text-brand-color text-lg font-semibold">Address:</span>
+         <ol type="1">
+             <li className="flex mt-2">
+         Corporate Head Office
+         </li>
+         <li className="flex mt-2">Bakky Plaza Agungi</li>
+          <li className="flex mt-2">Lekki Express Way Lagos</li>
+           <li className="flex mt-2">Nigeria</li>
+           </ol>
          </div>
-         <div className="mt-5 ml-7">
-           Click here to use google map to get to our Office <button className="lg:ml-5 p-2 bg-google text-white-color">Google Map</button>
+         <div className="mt-2">
+          <span className="mr-2"> Click here to use google map to get to our Office</span> <button className="lg:ml-5 p-2 mt-2 bg-google text-white-color">Google Map</button>
           </div>
-          <div className="mt-10 ml-7">
-           Contact US Through our mails:
+          <div className="mt-10">
+          <span className="text-brand-color text-lg font-semibold">
+           Contact us through our mails:
+           </span>
            <ol type="1">
-             <li className="flex">
-               General enquiries and hire <a href="mailto:enquire@vipfleets.io" className="text-brand-color flex items-center ml-2">enquire@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
+             <li className="flex items-center mt-2">
+             <div>  General enquiries and hire  </div><a href="mailto:enquire@vipfleets.io" className="text-brand-color ml-2">enquire@vipfleets.io</a>
              </li>
-             <li className="flex">
-             Customer feedback and complaints <a href="mailto:feedback@vipfleets.io" className="text-brand-color flex items-center ml-2">feedback@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
+             <li className="flex mt-2">
+             <div>Customer feedback and complaints </div><a href="mailto:feedback@vipfleets.io" className="text-brand-color ml-2">feedback@vipfleets.io</a>
              </li>
-             <li className="flex">
-             Recruitment and training <a href="mailto:joinus@vipfleets.io" className="text-brand-color flex items-center ml-2">joinus@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
+             <li className="flex mt-2">
+             <div>Recruitment and training </div><a href="mailto:joinus@vipfleets.io" className="text-brand-color  ml-2">joinus@vipfleets.io</a>
+             </li>
+             <li className="flex mt-2">
+             <div>Social Media and Advert </div><a href="mailto:joinus@vipfleets.io" className="text-brand-color  ml-2">socialmedia@vipfleets.io</a>
              </li>
            </ol>
           </div>
-          <div className="mt-10 ml-7">
+          <div className="mt-5">
+          <span className="text-brand-color text-lg font-semibold">
            Contact US through our order line:
-           <ol type="1" className="text-brand-color">
+           </span>
+           <ol type="1">
              <li className="flex items-center " >
              <IoIosCall/>
-                <a href="callto:enquire@vipfleets.io" className="text-brand-color flex items-center ml-2">0000000000 </a>
+                <a href="callto:enquire@vipfleets.io" className=" flex items-center ml-2">0000000000 </a>
              </li>
              <li className="flex items-center" >
              <IoIosCall/>
-             <a href="callto:feedback@vipfleets.io" className="text-brand-color flex items-center ml-2">000000000 </a>
+             <a href="callto:feedback@vipfleets.io" className=" flex items-center ml-2">000000000 </a>
              </li>
             </ol>
           </div>

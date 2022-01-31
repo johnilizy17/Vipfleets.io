@@ -38,11 +38,11 @@ export default function Teams() {
                                 <li> <span>4. </span> Office Administration</li>
                                 <li> <span>5. </span> Human Resources</li>
                                 <li> <span>6. </span> Accounting Officer</li>
-                                <li> <span>7. </span> Logistics <span className="italic text-xs">(We only recruit VALID licence drivers here at VIP FLEEST). </span></li>
                                 <li className="mt-2"><span>8. </span> ICT </li>
                                 <li> <span>9. </span> Social Media Guru</li>
                                 
                                 <li className="mt-2">please send your C.V to <a href="mailto:joinus@vipfleets.io" className="text-brand-color">joinus@vipfleets.io</a> today.</li>
+                                <li> <span>7. </span> Logistics <span className="italic text-xs">(We only recruit VALID licence drivers here at VIP FLEETS). </span></li>
                                 
                      </ol>
                         </div>

@@ -26,7 +26,7 @@ export default function News() {
                         <Pages name="FAQ" routes="/FAQ" />
                         <Pages name="Airport" routes="/airport" />
                         <Pages name="Fleets" routes="/fleets" />
-                        <Pages name="Partner with us" routes="/partner" />
+                        <Pages name="Partnership" routes="/partner" />
                         <Pages name="Special Offer" routes="/special_offer" />
                     </div>
                 </div>
@@ -47,7 +47,9 @@ export default function News() {
                     </div>
                 </div>
             </div >
-
+            <div className="text-xs mt-2 w-full flex text-brand-color justify-center italic">
+                     Companies registration No:3012043
+                    </div>
         </div>
     )
 }
