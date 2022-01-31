@@ -12,7 +12,7 @@ export default function Teams() {
                     <div className="font-semibold lg:text-3xl sm:text-2xl">
                         Team
               </div>
-                    <div className="lg:text-2xl flex w-4/5">
+                    <div className="lg:text-2xl w-5/5">
                         {"Customer service is not a department, it's everyone's job"}
             </div>
                 </center>
@@ -41,7 +41,7 @@ export default function Teams() {
                                 <li><span>7. </span> ICT </li>
                                 <li> <span>8. </span> Social Media Guru</li>
                                 <li> <span>9. </span> Logistics
-                                 <li className="italic text-xs mt-2">(We only recruit VALID licence drivers here at VIP FLEETS). </li></li>
+                                 <li className="italic text-xs mt-5 mb-5">(We only recruit VALID licence drivers here at VIP FLEETS). </li></li>
 
                                 <li className="mt-2">Please send your C.V to <a href="mailto:joinus@vipfleets.io" className="text-brand-color">joinus@vipfleets.io</a> today.</li>
 
