@@ -31,9 +31,6 @@ export default function Navbar() {
                     <Navbutton name="Airport" links="/airport"/>
                     </div>
                 </div>
-                <div className="flex flex-row items-center justify-between">
-                    <BiSearchAlt className="mr-10 cursor-pointer" />
-                </div>
             </div>
             <div>
                 <div className="lg:hidden sm:flex m-5 items-center">

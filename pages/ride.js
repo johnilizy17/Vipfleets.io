@@ -3,7 +3,8 @@ import Whatsapp from '../components/Whatsapp/Whatsapp';
 import News from '../components/home/News';
 import { IoIosCall } from 'react-icons/io';
 import pardo from '../asset/cars/pardo.jpg'
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Ride() {
     return (
@@ -28,8 +29,13 @@ export default function Ride() {
                         </div>
                         <div className="bg-white-color  pt-5 pb-20">
                             <div className=" lg:pl-20 lg:pr-20 sm:pl-5 sm:pr-5  lg:w-2/4">
-                                <div className="lg:mt-5">
+                             <div className="lg:mt-5">
                                     The fastest way to hire is by calling or by simply sending us a WhatsApp message on any of the hire lines below and a member of our team would be more than happy to take your reservation.
+                             </div>
+                             <div className="lg:mt-5">
+                                    We have a large fleet of vehicles for you to select from, why not press on <Link passHref={true} href="/fleets">
+                                     <span className="text-brand-color  cursor-pointer"> OUR FLEETS </span> 
+                                     </Link> to view and hire the perfect ride for you.
                              </div>
                                 <a href="callto:00000000">
                                     <div className="flex items-center mt-2 cursor-pointer" style={{ width: 200 }} >
