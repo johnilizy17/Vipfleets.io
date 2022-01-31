@@ -10,11 +10,11 @@ export default function FAQ() {
                Frequently Asked Questions
                 </div>
                 <div className="italic text-center mt-2">
-                {"Here are answers to most common questions. Can't find an answer? Call us!"}
+                {"Here are answers to most common questions."}<br/> {"Can't find an answer? Call us!"}
                  </div>
                  <div className="w-screen flex flex-col mt-10 justify-center items-center ">
                 <Questions asked="1 - Q: Does my hire come with a chauffeur?" result="A: Yes, all vehicles come with a professional driver. "/>
-                <Questions asked="2- Q: Can I drive the car myself?" result="A: No self-drive is permitted at VIP FLEETS."/>
+                <Questions asked="2 - Q: Can I drive the car myself?" result="A: No self-drive is permitted at VIP FLEETS."/>
                 <Questions asked="3 - Q: What is the duration on each hire?" result="A: Each hire duration is 12 hours, day hire expires at 10pm, any movement after 10pm is considered as night hire - which attracts extra charge."/>
                 <Questions asked="4 - Q: Do you offer night movement hire?" result="A: Yes, night hire is available – rate depends on the year and model of the vehicle. "/>
                 <Questions asked="5 - Q: If I cancel my hire totally do I get a refund?" result="A: Unfortunately, no refund on cancellation after 24hrs."/>

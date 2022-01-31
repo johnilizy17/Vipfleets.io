@@ -1,16 +1,17 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import Navbar from '../components/Header/Navbar';
 import teamspicture from '../asset/business.jpg';
 import Image from 'next/image'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import Avarter from '../asset/Avarter.jpg';
+import Dropzone from 'react-dropzone'
 import News from '../components/home/News'
 import { Card } from "@mui/material";
+import Avarter from '../asset/Avarter.jpg';
 import * as Yup from 'yup';
-
+import {AiOutlineCloudUpload} from 'react-icons/ai'
 export default function Teams() {
 
-const [fieldValue, setFieldValue] = useState()
+    const [fieldValue, setFieldValue] = useState()
 
     function handleSubmit(a) {
         console.log(a)
@@ -24,7 +25,7 @@ const [fieldValue, setFieldValue] = useState()
                 <Navbar />
                 <Image src={teamspicture} alt="the teams image" />
                 <div className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-40 sm:bottom-32">
-                    <div className="font-semibold text-5xl">
+                    <div className="font-semibold lg:text-3xl sm:text-2xl">
                         Partnership
               </div>
                     <div className="text-xl">
@@ -40,9 +41,8 @@ const [fieldValue, setFieldValue] = useState()
             </div>
                     <div className="flex justify-center mt-5">
                         <Card className="w-4/5 p-10 ">
-                        <center>
-                        <Image src={Avarter} alt="default avarter" />
-                        </center>
+                            <center>
+                            </center>
                             <center>
                                 <Formik
                                     initialValues={{ email: "", number: "", year: "", purchase: "", model: "", color: "", mileage: "", first: "" }}
@@ -73,11 +73,6 @@ const [fieldValue, setFieldValue] = useState()
                                     }) => (
                                             <form onSubmit={handleSubmit}>
                                                 <div>
-                                                    <input type="file" name="file" onChange={(event)=>{setFieldValue(event.currentTarget.files[0])}} />
-                                                    <div className="sm:w-full lg:w-2/4" style={{ color: "red" }}>
-                                                        <ErrorMessage name="image" />
-                                                    </div>
-                                                    
                                                     <Field className=" rounded-md sm:w-full lg:w-2/4 form-control py-3 px-4 border-black border-2 block mt-4" type="first" name="first" placeholder="Full Name" />
                                                     <div className="sm:w-full lg:w-2/4" style={{ color: "red" }}>
                                                         <ErrorMessage name="first" />
@@ -111,6 +106,23 @@ const [fieldValue, setFieldValue] = useState()
                                                     <div className="sm:w-full lg:w-2/4" style={{ color: "red" }}>
                                                         <ErrorMessage name="email" />
                                                     </div>
+                                                    <Dropzone onDrop={acceptedFiles => acceptedFiles.map(d=>{
+                                                        console.log(d.preview)
+                                                    })
+                                                    
+                                                    }>
+                                                        {({ getRootProps, getInputProps }) => (
+                                                            <section>
+                                                                <div {...getRootProps()}>
+                                                                    <input {...getInputProps()} />
+                                                                    <div className="border-2 flex justify-center items-center h-40 mt-5">
+                                                                              <div> Drag or drop image or click to upload image  </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                        )}
+                                                    </Dropzone>
+                                                 <Image src={Avarter} alt="the uploaded image"/>
                                                 </div>
                                                 <div className=" mt-5 xl:mt-8 text-center xl:text-left">
                                                     <button className="rounded-md bg-brand-color sm:w-full lg:w-2/4 py-3 px-4 w-full xl:w-32 xl:mr-3 text-white-color align-top" type="submit">Sumbit</button>

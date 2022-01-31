@@ -18,7 +18,7 @@ export default function Teams() {
                 </div>
                 <div className=" lg:ml-20 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
                     <div className="lg:basis-2/6">
-                        Every member of our team, which include the chairman, board of directors, investors, partners and operational team, play a vital role within our expanding organisation. Each member of our team is relevant to us.
+                        Every member of our Team, which include the chairman, board of directors, investors, partners and operational team, play a vital role within our expanding organisation. Each member of our team is relevant to us.
              </div>
                     <div className="lg:basis-2/6 sm:mt-2">
                         We do things quite differently here at <span className="text-brand-color"> VIP FLEETS</span>, the true MVP’s (most valuable players) are our<span className="text-brand-color"> DRIVERS, </span> the logistics team… when next you book a ride with us, please help us appreciate them.
@@ -38,11 +38,11 @@ export default function Teams() {
                                 <li> <span>4. </span> Office Administration</li>
                                 <li> <span>5. </span> Human Resources</li>
                                 <li> <span>6. </span> Accounting Officer</li>
-                                <li className="mt-2"><span>7. </span> ICT </li>
+                                <li><span>7. </span> ICT </li>
                                 <li> <span>8. </span> Social Media Guru</li>
                                 <li> <span>9. </span> Logistics <span className="italic text-xs">(We only recruit VALID licence drivers here at VIP FLEETS). </span></li>
                                 
-                                <li className="mt-2">please send your C.V to <a href="mailto:joinus@vipfleets.io" className="text-brand-color">joinus@vipfleets.io</a> today.</li>
+                                <li className="mt-2">Please send your C.V to <a href="mailto:joinus@vipfleets.io" className="text-brand-color">joinus@vipfleets.io</a> today.</li>
     
                      </ol>
                         </div>

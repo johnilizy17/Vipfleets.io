@@ -27,9 +27,7 @@ export default function Slide() {
                         </div>
                     </div>
                 </div>
-                <div className=" basis-2/3 sm:basis-1/3 font-bold border-white-color mt-5  flex p-10 items-center">
-                    Gallery
-                </div>
+               
             </div>
             <Carousel
                 showStatus={false}

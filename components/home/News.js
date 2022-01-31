@@ -3,6 +3,7 @@ import Logo from '../../asset/logo.png';
 import Link from 'next/link';
 import Pages from './Pages';
 import { BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import {AiOutlineCopyrightCircle} from 'react-icons/ai'
 
 export default function News() {
     return (
@@ -19,7 +20,7 @@ export default function News() {
                     </Link>
                 </div>
                 <div className="sm:flex" style={{ flex: 1 }}>
-                    <div className="grid sm:grid-cols-4 sm:text-xs  lg:grid-cols-3 lg:grap-2">
+                    <div className="grid sm:grid-cols-3 gap-4  ml-3 sm:text-xs  lg:grid-cols-3 lg:grap-2">
                         <Pages name="Hire a Ride" routes="/ride" />
                         <Pages name="Teams" routes="/teams" />
                         <Pages name="Policy" routes="/policy" />
@@ -47,8 +48,8 @@ export default function News() {
                     </div>
                 </div>
             </div >
-            <div className="text-xs mt-2 w-full flex text-brand-color justify-center italic">
-                     Companies registration No:3012043
+            <div style={{fontSize:10}} className="mt-2 mb-5 w-full items-center flex text-brand-color justify-center italic">
+                     registrated company No:3012043 <AiOutlineCopyrightCircle className="ml-2"/>
                     </div>
         </div>
     )

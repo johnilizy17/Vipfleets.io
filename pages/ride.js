@@ -9,25 +9,25 @@ import Link from 'next/link';
 export default function Ride() {
     return (
         <div className="font-serif  lg:pb-5">
-            <div className="fixed w-screen z-20">
+            <div>
                 <Navbar />
             </div>
-            <div className="fixed top-20 z-0">
+            <div>
                 <Image src={pardo} alt="pardo" />
             </div>
-            <div className="absolute  z-10 mt-20">
+            <div >
                 <div>
                     <div>
-                        <div className="lg:h-screen sm:h-72 flex flex-col text-white-color justify-center items-center">
-                            <div className="lg:text-3xl sm:text-2xl font-semibold">
+                        <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-40 sm:bottom-32">
+                            <div className="lg:text-3xl sm:text-2xl text-center font-semibold">
                                 HIRE A RIDE
                             </div>
                             <div className="lg:text-2xl text-center">
                                 To hire from
                                 us takes only a few minutes of your precious time.
                         </div>
-                        </div>
-                        <div className="bg-white-color  pt-5 pb-20">
+                        </center>
+                        <div className="bg-white-color relative lg:bottom-20 sm:bottom-20  pt-5 pb-20">
                             <div className=" lg:pl-20 lg:pr-20 sm:pl-5 sm:pr-5  lg:w-2/4">
                              <div className="lg:mt-5">
                                     The fastest way to hire is by calling or by simply sending us a WhatsApp message on any of the hire lines below and a member of our team would be more than happy to take your reservation.

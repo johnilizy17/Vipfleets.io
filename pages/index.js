@@ -10,7 +10,7 @@ import Whatsapp from '../components/Whatsapp/Whatsapp';
 export default function Home() {
   
   return (
-    <div className="font-serif  pb-5">
+    <div className="font-serif  pb-0">
       <Navbar/>
       <Main/>
       <Slide/>
