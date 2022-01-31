@@ -38,7 +38,7 @@ export default function Ride() {
                                      </Link> to view and hire the perfect ride for you.
                              </div>
                                 <a href="callto:08102861988">
-                                    <div className="flex items-center mt-2 cursor-pointer" style={{ width: 200 }} >
+                                    <div className="flex items-center  mt-5 cursor-pointer" style={{ width: 200 }} >
                                         <IoIosCall className="mr-2" /> 08102861988 <span className="ml-2 italic text-xs">(MTN) </span>
                                 </div>
                                 </a>
