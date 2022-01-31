@@ -32,19 +32,19 @@ export default function Ride() {
                              <div className="lg:mt-5">
                                     The fastest way to hire is by calling or by simply sending us a WhatsApp message on any of the hire lines below and a member of our team would be more than happy to take your reservation.
                              </div>
-                             <div className="lg:mt-5">
+                             <div className="mt-5">
                                     We have a large fleet of vehicles for you to select from, why not press on <Link passHref={true} href="/fleets">
                                      <span className="text-brand-color  cursor-pointer"> OUR FLEETS </span> 
                                      </Link> to view and hire the perfect ride for you.
                              </div>
-                                <a href="callto:00000000">
+                                <a href="callto:08102861988">
                                     <div className="flex items-center mt-2 cursor-pointer" style={{ width: 200 }} >
-                                        <IoIosCall className="mr-2" /> 0000000000000000
+                                        <IoIosCall className="mr-2" /> 08102861988
                                 </div>
                                 </a>
                                 <a href="callto:00000000" className="mb-2">
                                     <div className="flex items-center  mt-2 cursor-pointer" >
-                                        <IoIosCall className="mr-2" />  0000000000000000
+                                        <IoIosCall className="mr-2" />  07018097044
                                </div>
                                 </a>
                                 <div className="text-xs mt-2">
