@@ -45,7 +45,7 @@ export default function Footer(){
            </ol>
           </div>
           <div className="mt-10">
-          <span className="text-brand-color text-lg font-semibold"> Contact us through our order line:</span>
+          <span className="text-brand-color text-lg font-semibold"> Contact us through our hire line:</span>
            <ol type="1">
              <li className="flex items-center " >
              <IoIosCall/>
@@ -105,7 +105,7 @@ export default function Footer(){
           </div>
           <div className="mt-5">
           <span className="text-brand-color text-lg font-semibold">
-           Contact us through our order line:
+           Contact us through our hire line:
            </span>
            <ol type="1">
              <li className="flex items-center " >
