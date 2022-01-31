@@ -12,7 +12,7 @@ export default function Teams() {
                     <div className="font-semibold lg:text-3xl sm:text-2xl">
                         Team
               </div>
-                    <div className="text-2xl">
+                    <div className="lg:text-2xl">
                         {"Customer service is not a department, it's everyone's job"}
             </div>
                 </div>
