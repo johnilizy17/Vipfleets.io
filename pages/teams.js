@@ -16,7 +16,7 @@ export default function Teams() {
                         {"Customer service is not a department, it's everyone's job"}
             </div>
                 </center>
-                <div className=" lg:ml-20 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
+                <div className=" lg:ml-20 mt-5 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
                     <div className="lg:basis-2/6">
                         Every member of our Team, which include the chairman, board of directors, investors, partners and operational team, play a vital role within our expanding organisation. Each member of our team is relevant to us.
              </div>
