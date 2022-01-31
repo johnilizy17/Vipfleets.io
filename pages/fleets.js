@@ -68,7 +68,6 @@ export default function Fleets() {
             "image":carmary,
             "name": "Carmary"
         },
-
     ]
 
     return (
