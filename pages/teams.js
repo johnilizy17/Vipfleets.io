@@ -1,5 +1,5 @@
 import Navbar from '../components/Header/Navbar';
-import teamspicture from '../asset/teams3.jpg';
+import teamspicture from '../asset/lagos2.jpg';
 import Image from 'next/image'
 import News from '../components/home/News'
 export default function Teams() {
