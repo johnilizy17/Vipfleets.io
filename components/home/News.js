@@ -49,7 +49,7 @@ export default function News() {
                 </div>
             </div >
             <div style={{fontSize:10}} className="mt-2 mb-5 w-full items-center flex text-brand-color justify-center italic">
-                     Registered company No:3012043 <AiOutlineCopyrightCircle className="ml-2"/>
+                     Registered Company No:3012043 <AiOutlineCopyrightCircle className="ml-2"/>
                     </div>
         </div>
     )
