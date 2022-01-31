@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import pardo from '../../asset/cars/pardo.jpg';
 import ford from '../../asset/cars/ford.jpg';
 import land from '../../asset/cars/land.jpg';
+import Vip from '../../asset/cars/Vip.png';
 import Image from 'next/image';
 import { GoCalendar } from 'react-icons/go'
 import { MdLocalAirport, MdOutlineLocationOn } from 'react-icons/md'
@@ -37,7 +38,7 @@ export default function Slide() {
                 infiniteLoop={true}
             >
               
-                    <Image alt="pardo" object-fit="contain"  layout="responsive" src={pardo} />
+                    <Image alt="pardo" object-fit="contain"  layout="responsive" src={Vip} />
                     <Image alt="ford" object-fit="contain"  layout="responsive" src={ford} />
                     <Image alt="land" object-fit="contain"  layout="responsive" src={land} />     
             </Carousel>
