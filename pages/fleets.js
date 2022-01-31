@@ -7,7 +7,7 @@ import ford from '../asset/cars/ford.jpg'
 import land from '../asset/cars/land.jpg'
 import pardo from '../asset/cars/pardo.jpg'
 import Mercedes from '../asset/cars/Mercedes-Benz_Sprinter.jpg'
-import wagon from '../asset/cars/g-wagon.webp';
+import wagon from '../asset/cars/g-wagon.jpg';
 import Range from '../asset/cars/Range-Rover.webp';
 import Royce from '../asset/cars/Roll-Royce.jpg';
 import GLE350 from '../asset/cars/mercedes-benz-GLE350.jpg';
@@ -15,7 +15,6 @@ import Jaguar from '../asset/cars/Jaguar.jpg';
 import LX570 from "../asset/cars/Lexus-LX570.jpg";
 import coaster from "../asset/cars/coaster.jpg";
 import carmary from "../asset/cars/carmary.jpg";
-import SE11 from "../asset/cars/Toyota-Camry-SE-11.webp";
 import Hiace from "../asset/cars/Toyota-Hiace-Bus.jpg";
 import toyotasienna from "../asset/cars/toyota-sienna.webp";
 
@@ -85,7 +84,14 @@ export default function Fleets() {
     return (
         <div className="font-serif lg:bg-snow pb-5 h-screen">
             <Navbar />
+            <div className=" sm:hidden flex justify-center font-semibold text-brand-color mb-5">
+            Most popular cars in hired in VIP FLEETS
+                    </div>
             <div className="sm:flex sm:flex-col sm:z-10 sm:justify-center sm:items-center lg:grid lg:grid-cols-3 sm:pt-10 sm:bg-snow lg:grap-3 lg:pl-20 lg:pr-20">
+            <div className=" lg:hidden flex justify-center font-semibold text-brand-color mb-5">
+            Most popular cars hired in VIP FLEETS
+                    </div>
+               
                 {LoadImage.map((data) => {
                     return <Card key={data} style={{ width: 330, display: "flex", flexDirection: "column", cursor: "pointer", justifyContent: "center", alignItems: "center", marginBottom: 20, height: 330 }}>
                         <Image src={data.image} alt="images" height={300} width={400} />

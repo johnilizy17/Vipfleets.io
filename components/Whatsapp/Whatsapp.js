@@ -4,7 +4,7 @@ import WhatsappLoading from '../../asset/whatsapp.json'
 
 export default function Whatsapp(){
     return(
-    <a href="https://wa.me/+2348130289290">
+    <a href="https://wa.me/+2347018097044">
         <Lottie
         loop
         animationData={WhatsappLoading}
