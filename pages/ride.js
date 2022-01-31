@@ -39,12 +39,12 @@ export default function Ride() {
                              </div>
                                 <a href="callto:08102861988">
                                     <div className="flex items-center mt-2 cursor-pointer" style={{ width: 200 }} >
-                                        <IoIosCall className="mr-2" /> 08102861988
+                                        <IoIosCall className="mr-2" /> 08102861988 <span className="ml-2 italic">(MTN) </span>
                                 </div>
                                 </a>
                                 <a href="callto:00000000" className="mb-2">
                                     <div className="flex items-center  mt-2 cursor-pointer" >
-                                        <IoIosCall className="mr-2" />  07018097044
+                                        <IoIosCall className="mr-2" />  07018097044 <span className="ml-2 italic"> (Airtel)</span>
                                </div>
                                 </a>
                                 <div className="text-xs mt-2">
