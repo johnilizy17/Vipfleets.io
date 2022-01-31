@@ -64,7 +64,7 @@ export default function Previews(props) {
     <section className="container">
       <div {...getRootProps({className: 'dropzone'})}>
         <input {...getInputProps()} />
-        <p>{"Drag 'n' drop some files here, or click to select files"}</p>
+        <p>{"Drag or drop a image here, or click to select a image "}</p>
       </div>
       <div style={thumbsContainer}>
         {thumbs}
