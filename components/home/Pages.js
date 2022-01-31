@@ -1,4 +1,3 @@
-import { CgArrowLongRight, CgArrowLongLeft } from 'react-icons/cg'
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 

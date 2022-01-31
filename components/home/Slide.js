@@ -1,8 +1,5 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import image1 from '../../asset/SlideImage/image1.jpg'
-import image3 from '../../asset/SlideImage/image3.jpg'
-import image4 from '../../asset/SlideImage/image5.jpg'
 import pardo from '../../asset/cars/pardo.jpg';
 import ford from '../../asset/cars/ford.jpg';
 import land from '../../asset/cars/land.jpg';

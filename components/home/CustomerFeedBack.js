@@ -2,7 +2,6 @@ import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
 import customer2 from '../../asset/customerfeed.jpg'
 import customer from '../../asset/customer.jpg'
-import { Card } from '@mui/material'
 import { AiOutlineDoubleRight } from 'react-icons/ai'
 
 export default function CustomerFeedBack() {

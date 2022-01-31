@@ -1,7 +1,6 @@
 import Navbar from '../components/Header/Navbar'
 import Link from 'next/link'
 import { Button, Card } from '@mui/material'
-import map from '../asset/map.png'
 import airport from '../asset/airport2.jpg'
 import Image from 'next/image'
 import { AiOutlineDownload, AiOutlineArrowRight } from 'react-icons/ai';

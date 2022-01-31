@@ -1,7 +1,4 @@
 import React from 'react';
-import image4 from '../../asset/SlideImage/image5.jpg'
-import image6 from '../../asset/SlideImage/airport.jpg'
-import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineDownload, AiOutlineArrowRight } from 'react-icons/ai';
 
