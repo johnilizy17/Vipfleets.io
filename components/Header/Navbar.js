@@ -33,9 +33,6 @@ export default function Navbar() {
                 </div>
                 <div className="flex flex-row items-center justify-between">
                     <BiSearchAlt className="mr-10 cursor-pointer" />
-                    <select>
-                        <option className="font-semibold cursor-pointer">EN</option>
-                    </select>
                 </div>
             </div>
             <div>
@@ -67,11 +64,6 @@ export default function Navbar() {
                     <NavSlider links= "/teams" name="teams"/>
                     <NavSlider links= " /FAQ" name="FAQ"/>
                     <NavSlider links= "/airport" name="Airport"/>
-                    <div className="flex flex-row pl-2 pb-5 items-center justify-between">
-                    <select>
-                        <option className="font-semibold cursor-pointer">EN</option>
-                    </select>
-                    </div>
                     </div>
                     </div>
                     }

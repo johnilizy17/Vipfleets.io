@@ -21,13 +21,13 @@ export default function Footer(){
           <div className="mt-10 ml-7">
            Contact US Through our mails:
            <ol type="1">
-             <li className="flex">
+             <li className="flex  mt-2">
                General enquiries and hire <a href="mailto:enquire@vipfleets.io" className="text-brand-color flex items-center ml-2">enquire@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
              </li>
-             <li className="flex">
+             <li className="flex  mt-2">
              Customer feedback and complaints <a href="mailto:feedback@vipfleets.io" className="text-brand-color flex items-center ml-2">feedback@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
              </li>
-             <li className="flex">
+             <li className="flex  mt-2">
              Recruitment and training <a href="mailto:joinus@vipfleets.io" className="text-brand-color flex items-center ml-2">joinus@vipfleets.io <AiTwotoneMail className="ml-2"/></a>
              </li>
            </ol>

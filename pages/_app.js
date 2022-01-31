@@ -3,6 +3,7 @@ import Script from "next/script";
 import Head from 'next/head'
 import Whatsapp from '../components/Whatsapp/Whatsapp';
 import Marquee from 'react-fast-marquee';
+import Router from 'next/router';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -39,7 +40,7 @@ function MyApp({ Component, pageProps }) {
           ---NEWS FLASH---  
         </div>
       <div className="w-4/4 text-white-color font-semibold">
-          Vip Fleets airport pickup and drop is coming soon on playstore and apple store
+          VIP FLEETS airport pickup and drop is coming soon on playstore and apple store
         </div>
       <div className="w-4/4 text-white-color font-semibold ml-40 mr-40">
          ---NEWS FLASH---

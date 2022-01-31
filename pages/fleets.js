@@ -23,16 +23,12 @@ export default function Fleets() {
 
     const LoadImage = [
         {
-            "image": ford,
-            "name": "Ford"
+            "image": pardo,
+            "name": "Pardo"
         },
         {
             "image": land,
             "name": "Toyota Landcruiser"
-        },
-        {
-            "image": pardo,
-            "name": "Pardo"
         },
         {
             "image":Mercedes,
@@ -52,7 +48,7 @@ export default function Fleets() {
         },
         {
             "image":GLE350,
-            "name": "mercedes benz GLE350"
+            "name": "Mercedes Benz GLE350"
         },
         
         {
@@ -77,16 +73,12 @@ export default function Fleets() {
             "name": "Toyota Hiace Bus"
         },
         {
-            "image":Hiace,
-            "name": "Toyota Hiace Bus"
-        },
-        {
-            "image":SE11,
-            "name": "Toyota Camry SE 11"
-        },
-        {
             "image":toyotasienna,
-            "name": "toyota sienna "
+            "name": "Toyota Sienna "
+        },
+        {
+            "image": ford,
+            "name": "Ford Explorer"
         },
     ]
 
