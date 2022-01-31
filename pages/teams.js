@@ -12,7 +12,7 @@ export default function Teams() {
                     <div className="font-semibold lg:text-3xl sm:text-2xl">
                         Team
               </div>
-                    <div className="lg:text-2xl">
+                    <div className="lg:text-2xl flex w-4/5">
                         Customer service is not a department, it's everyone's job
             </div>
                 </div>
@@ -23,7 +23,7 @@ export default function Teams() {
                     <div className="lg:basis-2/6 sm:mt-2">
                         We do things quite differently here at <span className="text-brand-color"> VIP FLEETS</span>, the true MVP’s (most valuable players) are our<span className="text-brand-color"> DRIVERS, </span> the logistics team… when next you book a ride with us, please help us appreciate them.
            Driving constantly in Nigeria traffic especially LAGOS require a level of discipline, calmness and professionalism.
-    
+
             </div>
                     <div className="lg:basis-2/6 sm:mt-2">
                         Looking for a company that values its employees and their skills? Join <span className="text-brand-color">VIP FLEETS.</span>
@@ -41,10 +41,10 @@ export default function Teams() {
                                 <li><span>7. </span> ICT </li>
                                 <li> <span>8. </span> Social Media Guru</li>
                                 <li> <span>9. </span> Logistics <span className="italic text-xs">(We only recruit VALID licence drivers here at VIP FLEETS). </span></li>
-                                
+
                                 <li className="mt-2">Please send your C.V to <a href="mailto:joinus@vipfleets.io" className="text-brand-color">joinus@vipfleets.io</a> today.</li>
-    
-                     </ol>
+
+                            </ol>
                         </div>
                     </div>
                     <div>
