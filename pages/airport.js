@@ -12,11 +12,11 @@ export default function About() {
             <div className="font-serif">
                 <Navbar />
                 <Image src={airport} alt="the teams image" />
-                <div className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
+                <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
                     <div className="font-semibold lg:text-3xl sm:text-2xl">
-                    Airport pick and drop:
+                    Airport pick and drop
               </div>
-              </div>
+              </center>
                 <div className=" lg:m-20 lg:mt-20 relative lg:bottom-20 sm:bottom-20 lg:mb-10 sm:m-5 sm:mb-10">
                     <div className="basis-2/5">
                         <div className="lg:mt-5 sm:mt-20">

@@ -8,14 +8,14 @@ export default function Teams() {
             <div className="font-serif  pb-5">
                 <Navbar />
                 <Image src={teamspicture} alt="the teams image" />
-                <div className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
+                <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
                     <div className="font-semibold lg:text-3xl sm:text-2xl">
                         Team
               </div>
                     <div className="lg:text-2xl flex w-4/5">
                         {"Customer service is not a department, it's everyone's job"}
             </div>
-                </div>
+                </center>
                 <div className=" lg:ml-20 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
                     <div className="lg:basis-2/6">
                         Every member of our Team, which include the chairman, board of directors, investors, partners and operational team, play a vital role within our expanding organisation. Each member of our team is relevant to us.
@@ -40,7 +40,8 @@ export default function Teams() {
                                 <li> <span>6. </span> Accounting Officer</li>
                                 <li><span>7. </span> ICT </li>
                                 <li> <span>8. </span> Social Media Guru</li>
-                                <li> <span>9. </span> Logistics <span className="italic text-xs">(We only recruit VALID licence drivers here at VIP FLEETS). </span></li>
+                                <li> <span>9. </span> Logistics
+                                 <li className="italic text-xs mt-2">(We only recruit VALID licence drivers here at VIP FLEETS). </li></li>
 
                                 <li className="mt-2">Please send your C.V to <a href="mailto:joinus@vipfleets.io" className="text-brand-color">joinus@vipfleets.io</a> today.</li>
 
