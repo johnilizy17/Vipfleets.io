@@ -49,11 +49,11 @@ export default function Footer(){
            <ol type="1">
              <li className="flex items-center " >
              <IoIosCall/>
-                <a href="callto:enquire@vipfleets.io" className=" flex items-center ml-2">08102861988 </a>
+                <a href="callto:enquire@vipfleets.io" className=" flex items-center ml-2">08102861988 <span className="ml-2 italic">(MTN) </span></a>
              </li>
              <li className="flex items-center" >
              <IoIosCall/>
-             <a href="callto:feedback@vipfleets.io" className=" flex items-center ml-2">07018097044 </a>
+             <a href="callto:feedback@vipfleets.io" className=" flex items-center ml-2">07018097044  <span className="ml-2 italic"> (Airtel)</span></a>
              </li>
             </ol>
           </div>
@@ -110,11 +110,11 @@ export default function Footer(){
            <ol type="1">
              <li className="flex items-center " >
              <IoIosCall/>
-                <a href="callto:08102861988" className=" flex items-center ml-2">08102861988 </a>
+                <a href="callto:08102861988" className=" flex items-center ml-2">08102861988 <span className="ml-2 italic">(MTN) </span> </a>
              </li>
              <li className="flex items-center" >
              <IoIosCall/>
-             <a href="callto:07018097044" className=" flex items-center ml-2">07018097044 </a>
+             <a href="callto:07018097044" className=" flex items-center ml-2">07018097044 <span className="ml-2 italic"> (Airtel)</span> </a>
              </li>
             </ol>
           </div>
