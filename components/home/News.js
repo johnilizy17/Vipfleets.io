@@ -41,7 +41,7 @@ export default function News() {
                             <a className="mr-5" href="https://www.twitter.com/vipfleets/">
                                 <BsTwitter />
                             </a>
-                            <a className="mr-5" href="">
+                            <a className="mr-5" href="https://www.Linkedin.com/vipfleets/">
                                 <BsLinkedin />
                             </a>
                         </div>
