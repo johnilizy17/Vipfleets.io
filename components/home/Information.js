@@ -107,7 +107,7 @@ export default function CustomerFeedBack() {
                     <div className="bg-brand-color text-justify pt-20 h-60 text-white-color" >
                         <div style={{width:"100%",height:100, display:"grid", justifyContent:"center", alignItems:"center" }}>
                             <Carousel
-                                width={400}
+                                width={350}
                                 showStatus={false}
                                 showArrows={false}
                                 showThumbs={false}
