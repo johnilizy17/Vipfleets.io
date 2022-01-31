@@ -101,7 +101,7 @@ export default function Footer(){
           </div>
           <div className="mt-5">
           <span className="text-brand-color text-lg font-semibold">
-           Contact US through our order line:
+           Contact us through our order line:
            </span>
            <ol type="1">
              <li className="flex items-center " >
