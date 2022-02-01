@@ -73,7 +73,7 @@ export default function Teams() {
             <div className="font-serif w-screen pb-5">
                 <Navbar />
                 <Image src={teamspicture} alt="the teams image" />
-                <center className=" text-white-color lg:ml-20 sm:ml-5 sm:mb-3  relative lg:bottom-40 sm:bottom-32">
+                <center className=" text-white-color lg:ml-20 sm:ml-5 sm:mb-3 sm:mr-5 relative lg:bottom-40 sm:bottom-32">
                     <div className="font-semibold lg:text-3xl sm:text-2xl">
                         PARTNERSHIP
               </div>
