@@ -16,6 +16,9 @@ export default function About() {
                     <div className="font-semibold lg:text-3xl sm:text-2xl">
                     AIRPORT PICK AND DROP
               </div>
+              <div className="lg:text-2xl text-center">
+              At VIP FLEETS we offer a reliable and efficient service.
+                        </div>
               </center>
                 <div className=" lg:m-20 lg:mt-20 relative lg:bottom-20 sm:bottom-20 lg:mb-10 sm:m-5 sm:mb-10">
                     <div className="basis-2/5">
@@ -53,9 +56,6 @@ export default function About() {
                                 </Link>
                             </Card>
                         </div>
-                    </div>
-                    <div className="sm:text-xs sm:flex sm:justify-center sm:tracking-tighter sm:mt-5 lg:mt-20">
-                      At VIP FLEETS we offer a reliable and efficient service.
                     </div>
                 </div>
             </div>
