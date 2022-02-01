@@ -25,18 +25,19 @@ export default function Navbar() {
                     <div className="flex flex-row items-center justify-between" style={{flex:0.7}}>
                     <Navbutton name="Home" links="/"/>
                     <Navbutton name="Hire a ride" links="/ride"/>
-                    <Navbutton name="Teams" links="/teams"/>
-                    <Navbutton name="Policy" links="/policy"/>
-                    <Navbutton name="FAQ" links="/FAQ"/>
+                    <Navbutton name="Fleets" links="/fleets"/>
                     <Navbutton name="Airport" links="/airport"/>
+                    <Navbutton name="FAQ" links="/FAQ"/>
+                    <Navbutton name="Teams" links="/teams"/>
                     </div>
                 </div>
             </div>
             <div>
-                <div className="lg:hidden sm:flex m-5 items-center">
+                <div className={menubar ? "lg:hidden  bg-white-color mt-5 z-20 w-screen" :"lg:hidden -mt-2 h-screen bg-white-color   z-20 w-screen top-0 fixed"}>
+                <div className="lg:hidden sm:flex items-center m-5 items-center">
                     <div className="basis-full">
                         <Link passHref={true} href="/">
-                            <div className="cursor-pointer" >
+                            <div className="cursor-pointer mt-2" >
                                 <Image src={logo} alt="vipfleets logo" width={50} height={50} />
                             </div>
                         </Link>
@@ -53,17 +54,18 @@ export default function Navbar() {
                     </div>
                 </div>
                 {!menubar &&
-                <div className="lg:hidden z-50 w-screen top-20 fixed">
-                    <div className="flex flex-col pl-2 basis-2/3 pb-10  bg-white-color font-semibold" style={{width:"100%"}}>
+                    <div className="flex flex-col pl-2 basis-2/3 pb-10   bg-white-color font-semibold" style={{width:"100%"}}>
                     <NavSlider links= "/" name="Home"/>
                     <NavSlider links= "/ride" name="Hire a Ride"/>
-                    <NavSlider name="/fleets" links="fleets"/>
+                    <NavSlider links="/fleets" name="Fleets"/>
                     <NavSlider links= "/airport" name="Airport"/>
                     <NavSlider links= " /FAQ" name="FAQ"/>
                     <NavSlider links= "/teams" name="Teams"/>
                     </div>
-                    </div>
                     }
+
+                    </div>
+                    
             </div>
         </>
     )
