@@ -22,6 +22,9 @@ export default function Fleets() {
             "image": pardo2,
         },
         {
+            "image": wagon,
+        },
+        {
             "image": ford,
         },
         {
@@ -38,9 +41,6 @@ export default function Fleets() {
         },
         {
             "image": lx570,
-        },
-        {
-            "image": wagon,
         },
     ]
 
