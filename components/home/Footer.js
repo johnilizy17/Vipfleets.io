@@ -46,7 +46,7 @@ export default function Footer(){
           </div>
           <div className="mt-10">
           <span className="text-brand-color text-lg font-semibold"> Contact us through our hire line:</span>
-           <ol type="1">
+           <ol type="1" className="mt-2">
              <li className="flex items-center " >
              <IoIosCall/>
                 <a href="callto:enquire@vipfleets.io" className=" flex items-center ml-2">08102861988 <span className="ml-2 italic text-xs">(MTN) </span></a>
@@ -61,7 +61,7 @@ export default function Footer(){
         </div>
         <div className="lg:hidden pt-5 mt-10 p-5">
           <div className="font-semibold text-lg">
-           Contact Our Experts through
+           Contact our team through
            <br/> the following means 
            
         </div>
@@ -72,8 +72,8 @@ export default function Footer(){
              <li className="flex mt-2">
          Corporate Head Office
          </li>
-         <li className="flex  mt-2">Bakky Plaza Agungi</li>
-          <li className="flex mt-2">Lekki Express Way </li>
+         <li className="flex  mt-2">Bakky Plaza </li>
+          <li className="flex mt-2">Agungi, Lekki Express Way </li>
            <li className="flex mt-2">Lagos, Nigeria</li>
            </ol>
          </div>
@@ -104,10 +104,10 @@ export default function Footer(){
            </ol>
           </div>
           <div className="mt-5">
-          <span className="text-brand-color text-lg font-semibold">
+          <span className="text-brand-color mb-5 text-lg font-semibold">
            Contact us through our hire line:
            </span>
-           <ol type="1">
+           <ol type="1" className="mt-2">
              <li className="flex items-center " >
              <IoIosCall/>
                 <a href="callto:08102861988" className=" flex items-center ml-2">08102861988 <span className="ml-2 italic text-xs">(MTN) </span> </a>
