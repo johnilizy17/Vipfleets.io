@@ -41,12 +41,21 @@ export default function Fleets() {
     return (
         <div className="font-serif lg:bg-snow pb-5 h-screen">
             <Navbar />
-            <div className=" sm:hidden flex justify-center font-semibold text-brand-color mb-5">
-                Most popular cars in hired in VIP FLEETS
+            <div className=" sm:hidden flex lg:text-3xl flex-col items-center justify-center font-semibold text-brand-color mb-5">
+                Most popular cars hired in VIP FLEETS are listed below
+                <div className="mt-5 font-normal  mb-5 text-2xl text-black">
+                      Not seeing what you like?<br/>
+                      Visit our instagram page <a href="">(VIP FLEETS)</a> or call any of our hire lines and speak to a member of our team members
+                    </div>
+                   
                     </div>
             <div className="sm:flex sm:flex-col sm:z-10 sm:justify-center sm:items-center lg:grid lg:grid-cols-3 sm:pt-10 sm:bg-snow lg:grap-3 lg:pl-20 lg:pr-20">
-                <div className=" lg:hidden flex justify-center font-semibold text-brand-color mb-5">
-                    Most popular cars hired in VIP FLEETS
+                <div className=" lg:hidden  pl-5 pr-5 flex justify-center font-semibold text-brand-color mb-2">
+                    Most popular cars hired in VIP FLEETS  are listed below:
+                    </div>
+                    <div className="lg:hidden ml-5 mb-5 mr-5">
+                      Not seeing what you like?<br/>
+                      Visit our instagram page <a href="https://www.instagram.com/vipfleets" className="text-brand-color">(VIP FLEETS)</a> or call any of our hire lines and speak to a member of our team members
                     </div>
 
                 {LoadImage.map((data) => {
