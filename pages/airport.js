@@ -9,7 +9,7 @@ import News from '../components/home/News'
 export default function About() {
     return (
         <>
-            <div className="font-serif">
+            <div className="font-serif sm:-mb-10">
                 <Navbar />
                 <Image src={airport} alt="the teams image" />
                 <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
@@ -33,30 +33,7 @@ export default function About() {
                    </div>
                        
                        </div>
-                    <div className="mt-5 flex  items-center">
-                        <div className="flex w-full justify-between">
-                            <Card className="bg-snow flex flex-col w-2/6 p-5">
-                                <div style={{flex:1}}>
-                                    {"Do you want special offer from VIP FLEETS?"}
-                                </div>
-                                <Link passHref={true} href="/special_offer">
-                                <div className="flex text-xs italic mt-5 text-brand-color cursor-pointer">
-                                  <div style={{flex:0.7}}>Click here </div> <AiOutlineArrowRight/>
-                                </div>
-                                </Link>
-                            </Card>
-                            <Card className="bg-snow flex flex-col w-2/5 p-5">
-                                <div style={{flex:1}}>
-                                   {" Do you want to partner with VIP FLEETS?"}
-                                </div>
-                                <Link passHref={true} href="/partner">
-                                <div className="flex text-xs italic mt-10 text-brand-color cursor-pointer">
-                                   <div style={{flex:0.7}}>Click here </div> <AiOutlineArrowRight/>
-                                </div>
-                                </Link>
-                            </Card>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             <News />
