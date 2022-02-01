@@ -20,7 +20,7 @@ export default function About() {
               At VIP FLEETS we offer a reliable and efficient service.
                         </div>
               </center>
-                <div className=" lg:m-20 lg:mt-20 relative lg:bottom-20 sm:bottom-20 lg:mb-10 sm:m-5 sm:mb-10">
+                <div className=" lg:m-20 lg:mt-20 relative lg:bottom-20 sm:bottom-32 lg:mb-10 sm:m-5 sm:mb-10">
                     <div className="basis-2/5">
                         <div className="lg:mt-5 sm:mt-20">
                         Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.
