@@ -78,7 +78,7 @@ export default function Footer(){
            </ol>
          </div>
          <div className="mt-2">
-          <span className="mr-2"> Click here to use google map to get to our Office</span> <button className="lg:ml-5 p-2 mt-2 bg-google text-white-color">Google Map</button>
+          <div className="mr-2 text-sm"> Click here to use google map to get to our Office</div> <button className="lg:ml-5 p-2 mt-2 bg-google text-white-color">Google Map</button>
           </div>
           <div className="mt-10">
           <span className="text-brand-color text-lg font-semibold">
