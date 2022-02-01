@@ -165,10 +165,9 @@ export default function Teams() {
                                                         {files.length > 0 && files.map(file => (
                                                             <div key={file.name}>
                                                                 <div >
-                                                                    <Image
+                                                                    <img
                                                                         src={file.preview}
-                                                         width={300}
-                                                         height={300}
+                                                        
                                                                     />
                                                                 </div>
                                                             </div>))}
