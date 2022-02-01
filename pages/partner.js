@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from '../components/Header/Navbar';
 import teamspicture from '../asset/business.jpg';
 import Image from 'next/image'
@@ -8,12 +8,59 @@ import News from '../components/home/News'
 import { Card } from "@mui/material";
 import Avarter from '../asset/Avarter.jpg';
 import * as Yup from 'yup';
-import {AiOutlineCloudUpload} from 'react-icons/ai'
+import { AiOutlineCloudUpload } from 'react-icons/ai'
 import Preview from '../components/home/Preview'
+import { useDropzone } from 'react-dropzone';
+
+const thumbsContainer = {
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginTop: 16
+};
+
+const thumb = {
+    display: 'inline-flex',
+    borderRadius: 2,
+    border: '1px solid #eaeaea',
+    marginBottom: 8,
+    marginRight: 8,
+    width: 100,
+    height: 100,
+    padding: 4,
+    boxSizing: 'border-box'
+};
+
+const thumbInner = {
+    display: 'flex',
+    minWidth: 0,
+    overflow: 'hidden'
+};
+
+const img = {
+    display: 'block',
+    width: 'auto',
+    height: '100%'
+};
 
 export default function Teams() {
 
     const [fieldValue, setFieldValue] = useState([])
+    const [files, setFiles] = useState([]);
+    const { getRootProps, getInputProps } = useDropzone({
+        accept: 'image/*',
+        onDrop: acceptedFiles => {
+            setFiles(acceptedFiles.map(file => Object.assign(file, {
+                preview: URL.createObjectURL(file)
+            })));
+        }
+    });
+
+    useEffect(() => {
+        // Make sure to revoke the data uris to avoid memory leaks
+        files.forEach(file => URL.revokeObjectURL(file.preview));
+    }, [files]);
+
 
     function handleSubmit(a) {
         console.log(a)
@@ -109,7 +156,22 @@ export default function Teams() {
                                                         <ErrorMessage name="email" />
                                                     </div>
                                                     <div className="border-2 flex justify-center items-center h-40 mt-5">
-                                                    <Preview/>
+                                                       {files.length < 1 && <div {...getRootProps({ className: 'dropzone' })}>
+                                                            <input {...getInputProps()} />
+                                                            <p>{"Drag or drop a image here, or click to select a image "}</p>
+                                                        </div>}
+
+
+                                                        {files.length > 0 && files.map(file => (
+                                                            <div key={file.name}>
+                                                                <div >
+                                                                    <Image
+                                                                        src={file.preview}
+                                                         width={300}
+                                                         height={300}
+                                                                    />
+                                                                </div>
+                                                            </div>))}
                                                     </div>
                                                 </div>
                                                 <div className=" mt-5 xl:mt-8 text-center xl:text-left">

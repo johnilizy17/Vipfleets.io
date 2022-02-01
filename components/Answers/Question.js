@@ -15,8 +15,8 @@ export default function AnswerQuestion({asked, result}) {
                 setAnswers(true)
             }
         }}>
-        <div className={answers?" text-justify flex text-brand-color font-semibold  items-center":" flex  text-justify  items-center"}>
-          <li className="basis-5/5">{asked}</li><div className="ml-2">{answers? <AiOutlineMinus />: <AiOutlinePlus/> }</div>
+        <div className={answers?" text-justify flex w-full text-brand-color font-semibold  items-center":" flex  text-justify  items-center"}>
+          <li className="basis-5/5" style={{flex:1}}>{asked}</li><div className="ml-2">{answers? <AiOutlineMinus />: <AiOutlinePlus/> }</div>
            </div>
             {answers &&
             <div className="mt-5">
