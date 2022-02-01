@@ -73,14 +73,14 @@ export default function Teams() {
             <div className="font-serif w-screen pb-5">
                 <Navbar />
                 <Image src={teamspicture} alt="the teams image" />
-                <div className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-40 sm:bottom-32">
+                <center className=" text-white-color lg:ml-20 sm:ml-5 sm:mb-3  relative lg:bottom-40 sm:bottom-32">
                     <div className="font-semibold lg:text-3xl sm:text-2xl">
-                        Partnership
+                        PARTNERSHIP
               </div>
-                    <div className="text-xl">
+                    <div className="lg:text-2xl text-center">
                         {"Partner helps businesses like yours to achieve long-term success"}
                     </div>
-                </div>
+                </center>
                 <div className=" lg:ml-20 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
                     <div className="lg:basis-2/6">
                         Want to partner with us? List your vehicle with VIP FLEETS. You can easily make back the value of your vehicle in a year.
@@ -155,7 +155,7 @@ export default function Teams() {
                                                     <div className="sm:w-full lg:w-2/4" style={{ color: "red" }}>
                                                         <ErrorMessage name="email" />
                                                     </div>
-                                                    <div className="border-2 flex justify-center items-center h-40 mt-5">
+                                                    <div className="border-2 flex justify-center items-center sm:h-40 lg:h-80 mt-5">
                                                        {files.length < 1 && <div {...getRootProps({ className: 'dropzone' })}>
                                                             <input {...getInputProps()} />
                                                             <p>{"Drag or drop a image here, or click to select a image "}</p>
@@ -163,10 +163,11 @@ export default function Teams() {
 
 
                                                         {files.length > 0 && files.map(file => (
-                                                            <div key={file.name}>
-                                                                <div >
+                                                            <div key={file.name} className="flex justify-center items-center">
+                                                                <div className="lg:w-40 lg:h-40" >
                                                                     <img
                                                                         src={file.preview}
+                                                                
                                                         
                                                                     />
                                                                 </div>
