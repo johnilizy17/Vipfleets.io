@@ -55,9 +55,9 @@ export default function Fleets() {
                     </div>
                    
                     </div>
-            <div className="sm:flex sm:flex-col sm:z-10 sm:justify-center sm:items-center lg:grid lg:grid-cols-3 sm:pt-10 sm:bg-snow lg:grap-3 lg:pl-20 lg:pr-20">
+            <div className="sm:flex  sm:flex-col sm:z-10 sm:justify-center sm:items-center lg:grid lg:grid-cols-3 sm:pt-10 sm:bg-snow lg:grap-3 lg:pl-20 lg:pr-20">
                 <div className=" lg:hidden  pl-5 pr-5 flex justify-center font-semibold text-brand-color mb-2">
-                    Most popular cars hired in VIP FLEETS  are listed below
+                    Most popular cars hired in VIP FLEETS  are listed below.
                     </div>
                     <div className="lg:hidden ml-5 mb-5 mr-5">
                       Not seeing what you like?<br/>
