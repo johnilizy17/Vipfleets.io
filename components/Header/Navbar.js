@@ -57,10 +57,10 @@ export default function Navbar() {
                     <div className="flex flex-col pl-2 basis-2/3 pb-10  bg-white-color font-semibold" style={{width:"100%"}}>
                     <NavSlider links= "/" name="Home"/>
                     <NavSlider links= "/ride" name="Hire a Ride"/>
-                    <NavSlider name="Policy" links="/policy"/>
-                    <NavSlider links= "/teams" name="teams"/>
-                    <NavSlider links= " /FAQ" name="FAQ"/>
+                    <NavSlider name="/fleets" links="fleets"/>
                     <NavSlider links= "/airport" name="Airport"/>
+                    <NavSlider links= " /FAQ" name="FAQ"/>
+                    <NavSlider links= "/teams" name="Teams"/>
                     </div>
                     </div>
                     }
