@@ -165,10 +165,10 @@ export default function Teams() {
                                                         {files.length > 0 && files.map(file => (
                                                             <div key={file.name} className="flex justify-center items-center">
                                                                 <div className="lg:w-40 lg:h-40" >
-                                                                    <img
+                                                                    <Image
                                                                         src={file.preview}
-                                                                
-                                                        
+                                                                        width={"100%"}                                                
+                                                                    height={"100%"}
                                                                     />
                                                                 </div>
                                                             </div>))}
