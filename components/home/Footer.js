@@ -24,7 +24,7 @@ export default function Footer(){
            </ol>
 
          </div>
-         <div className="mt-2 text-justify">
+         <div className="mt-2 text-justify text-sm">
            Click here to use google map to get to our Office <button className="ml-10 bg-google p-2  rounded-md text-white-color">Google Map</button>
           </div>
           <div className="mt-10">
