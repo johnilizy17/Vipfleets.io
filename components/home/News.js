@@ -3,7 +3,7 @@ import Logo from '../../asset/logo.png';
 import Link from 'next/link';
 import Pages from './Pages';
 import { BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
-import {AiOutlineCopyrightCircle} from 'react-icons/ai'
+import { AiOutlineCopyrightCircle } from 'react-icons/ai'
 
 export default function News() {
     return (
@@ -48,12 +48,16 @@ export default function News() {
                     </div>
                 </div>
             </div >
-            <div style={{fontSize:10}} className="mt-2 mb-2 w-full items-center flex text-brand-color justify-center italic">
-                     Registered Company No:3012043 
+            <div style={{ fontSize: 10 }} className="mt-2 mb-2 w-full items-center flex text-brand-color justify-center italic">
+                Registered Company No:3012043
                     </div>
-                    <div style={{fontSize:10}} className="mt-2 mb-5 pl-5 pr-5 w-full items-center flex text-brand-color justify-center italic">
-                    All trademarks and <AiOutlineCopyrightCircle className=" sm:hidden ml-1 mr-1"/>  copyrights held by VIPFLEETS.IO ¦ VIPFLEETS.IO 2022 All Rights Reserved.
+            <div>
+                <center style={{ fontSize: 10 }} className="mt-2 mb-5 pl-5 pr-5 w-full">
+                <div className="text-center text-brand-color">
+                    All trademarks and copyrights held by VIPFLEETS.IO  VIPFLEETS.IO 2022 All Rights Reserved.
                     </div>
+                    </center>
+            </div>
         </div>
     )
 }
