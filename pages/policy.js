@@ -6,7 +6,7 @@ import News from '../components/home/News';
 export default function Policy() {
 
     const [toggle, setToggle] = useState(true)
-    const [privacy, setprivacy] = useState(true)
+    const [privacy, setprivacy] = useState(false)
     return (
         <div className="font-serif  pb-5">
             <Navbar />
