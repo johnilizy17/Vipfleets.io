@@ -27,7 +27,7 @@ export default function Policy() {
                     <div className={privacy ? "bg-brand-color lg:mt-2 sm:ml-5 text-white-color p-2" : "lg:mt-2 sm:ml-5"} onClick={() =>{
                         setToggle("null")
                         setprivacy(true)}}>
-                    PRVACY
+                    PRIVACY
                     </div>
                 </div>
                 <Card className="basis-3/4 lg:h-4/5 p-10">
