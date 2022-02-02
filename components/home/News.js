@@ -48,8 +48,11 @@ export default function News() {
                     </div>
                 </div>
             </div >
-            <div style={{fontSize:10}} className="mt-2 mb-5 w-full items-center flex text-brand-color justify-center italic">
-                     Registered Company No:3012043 <AiOutlineCopyrightCircle className="ml-2"/>
+            <div style={{fontSize:10}} className="mt-2 mb-2 w-full items-center flex text-brand-color justify-center italic">
+                     Registered Company No:3012043 
+                    </div>
+                    <div style={{fontSize:10}} className="mt-2 mb-5 pl-5 pr-5 w-full items-center flex text-brand-color justify-center italic">
+                    All trademarks and <AiOutlineCopyrightCircle className=" sm:hidden ml-1 mr-1"/>  copyrights held by VIPFLEETS.IO ¦ VIPFLEETS.IO 2022 All Rights Reserved.
                     </div>
         </div>
     )
