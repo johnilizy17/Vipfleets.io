@@ -1,7 +1,6 @@
 import Navbar from '../components/Header/Navbar';
 import { Card } from '@mui/material';
 import Image from 'next/image';
-import { GoPrimitiveDot } from 'react-icons/go';
 import News from '../components/home/News'
 import ford from '../asset/cars/chrysler.jpg'
 import haicebus from '../asset/cars/haicebus.jpg'
@@ -67,6 +66,9 @@ export default function Fleets() {
                 {LoadImage.map((data) => {
                     return <Card key={data} style={{ width: 300, display: "flex", flexDirection: "column", cursor: "pointer", justifyContent: "center", alignItems: "center", marginBottom: 20, height: 330 }}>
                         <Image src={data.image} alt="images"  />
+                        <a href="https://wa.me/+2347018097044" className="bg-brand-color p-2 cursor-pointer rounded-md text-white-color" onClick={()=>console.log("helo")}>
+                            Hire new!!
+                        </a>
                     </Card>
                 })}
             </div>
