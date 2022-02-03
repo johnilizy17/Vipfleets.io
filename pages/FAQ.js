@@ -23,8 +23,8 @@ export default function FAQ() {
                 <Questions asked=" Can I smoke in the car?" result="No smoking is permitted inside the vehicle. "/>
                 <Questions asked=" Which States do you have your operations?" result="We operate in Lagos, Abuja and Port Harcourt."/>
                 <Questions asked=" Do you offer inter-state movement outside your States of Operations?" result="Yes"/>
-                <Questions asked=" If I have a complain who do I contact?" result="Please forward all complains to any of our WhatsApp HIRE LINES."/>
-                <Questions asked=" If I have a complain who do I contact?" result="VIP FLEETS is fully registered with CAC (Corporate Affairs Commission)."/>
+                <Questions asked=" If I have a complain who do I contact?" result="Please forward all complains to any of our WhatsApp HIRE LINES or E-mail us at feedback@vipfleets.io."/>
+                <Questions asked=" Is VIP FLEETS registered?" result="VIP FLEETS is fully registered with CAC (Corporate Affairs Commission)."/>
                 </ol>
             </div>
             <News/>
