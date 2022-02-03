@@ -25,6 +25,8 @@ export default function About() {
                         <div className="lg:mt-5 sm:mt-20">
                         Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.
                    </div>
+                   <div className="lg:mt-5 sm:mt-2">
+                   Our airport pickup  and drop service is available at all Lagos terminals, we also operate similar services in Abuja and Port Harcourt.   </div>
                    <div className=" mt-2">
                         Send in your hire request either via email (<a href="mailto:joinus@vipfleets.io" className="text-brand-color">enquire@vipfleets.io</a>) or on our airport PICK/DROP dedicated WhatsApp numbers. 
                 </div>      
@@ -38,9 +40,7 @@ export default function About() {
              <a href="callto:07018097044" className=" flex items-center ml-2">07018097044 <span className="ml-2 italic text-xs"> (Airtel)</span> </a>
              </li>
             </ol>  
-                        <div className="mt-5">
-                            <span className="text-brand-color"> VIP FLEETS </span> is an indigenous car rental company operating in <span className="text-brand-color"> Lagos</span>, <span className="text-brand-color"> Abuja</span> and <span className="text-brand-color"> Port Harcourt</span>. Our services are designed to ease the stress of self-drive, by providing our clients with an experience of chauffeur driven vehicles in the safest, comfortable and <span className="text-brand-color"> VIP style</span> - these are standard attributes of our carefully selected fleet.
-                   </div>
+                        
                        
                        </div>
 
