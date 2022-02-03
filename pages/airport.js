@@ -23,7 +23,8 @@ export default function About() {
                 <div className=" lg:m-20 lg:mt-20 relative lg:bottom-32 sm:bottom-36  lg:mb-10 sm:m-5 sm:mb-10">
                     <div className="basis-2/5">
                         <div className="lg:mt-5 sm:mt-20">
-                        Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.
+                        Don’t be left stranded at the airport. </div>
+                        <div className="lg:mt-5 sm:mt-2">To schedule a ride to or from the airport is easy, convenient and reliable.
                    </div>
                    <div className="lg:mt-5 sm:mt-2">
                    Our airport pickup  and drop service is available at all Lagos terminals, we also operate similar services in Abuja and Port Harcourt.   </div>
