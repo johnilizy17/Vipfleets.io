@@ -41,7 +41,7 @@ export default function Teams() {
                                 <li><span>7. </span> ICT </li>
                                 <li> <span>8. </span> Social Media Guru</li>
                                 <li> <span>9. </span> Logistics
-                                 <li className="italic text-xs mt-5 mb-5">(We only recruit VALID licence drivers here at VIP FLEETS). </li></li>
+                                 <li className="italic text-xs mt-5 mb-5 font-semibold">(We only recruit VALID licence drivers here at VIP FLEETS). </li></li>
 
                                 <li className="mt-2 tracking-tighter" >Please send your C.V to <a href="mailto:joinus@vipfleets.io" className="text-brand-color">joinus@vipfleets.io</a> today.</li>
 
