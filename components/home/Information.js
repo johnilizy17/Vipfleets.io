@@ -21,7 +21,7 @@ export default function CustomerFeedBack() {
                 <div className="basis-1/5"/>
                 <div className="basis-2/5 text-justify">
                     <div className="w-4/5 text-justify float-right mb-2 m-20 mt-10">
-                        At <span className="text-brand-color font-semibold">VIP FLEETS </span>, as much as revenue is crucial to our growth and development, so is good customer service and client experience.
+                        At <span className="text-brand-color font-semibold">VIP FLEETS,</span> as much as revenue is crucial to our growth and development, so is good customer service and client experience.
                     </div>
                     <div className="w-4/5 float-right text-justify m-20 mb-5 mt-0">
                         Since our launch, we have been privileged to chauffeur uncountable clients. Our team were able to get conduct reviews on our client experiences.<br />
@@ -96,7 +96,7 @@ export default function CustomerFeedBack() {
                 <div/>
                 <div>
                     <div className="mb-2 m-5">
-                        At <span className="text-brand-color text-justify font-semibold">VIP FLEETS </span>, as much as revenue is crucial to our growth and development, so is good customer service and client experience.
+                        At <span className="text-brand-color text-justify font-semibold">VIP FLEETS, </span> as much as revenue is crucial to our growth and development, so is good customer service and client experience.
                     </div>
                     <div className="m-5 mb-5 text-justify mt-0">
                         Since our launch, we have been privileged to chauffeur uncountable clients. Our team were able to get conduct reviews on our client experiences.<br />
