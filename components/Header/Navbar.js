@@ -28,7 +28,7 @@ export default function Navbar() {
                     <Navbutton name="Fleets" links="/fleets"/>
                     <Navbutton name="Airport" links="/airport"/>
                     <Navbutton name="FAQ" links="/FAQ"/>
-                    <Navbutton name="Teams" links="/teams"/>
+                    <Navbutton name="Team" links="/teams"/>
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@ export default function Navbar() {
                     <NavSlider links="/fleets" name="Fleets"/>
                     <NavSlider links= "/airport" name="Airport"/>
                     <NavSlider links= " /FAQ" name="FAQ"/>
-                    <NavSlider links= "/teams" name="Teams"/>
+                    <NavSlider links= "/teams" name="Team"/>
                     </div>
                     }
 

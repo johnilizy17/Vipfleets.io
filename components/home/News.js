@@ -22,7 +22,7 @@ export default function News() {
                 <div className="sm:flex" style={{ flex: 1 }}>
                     <div className="grid sm:grid-cols-3 gap-4  ml-3 sm:text-xs  lg:grid-cols-3 lg:grap-2">
                         <Pages name="Hire a Ride" routes="/ride" />
-                        <Pages name="Teams" routes="/teams" />
+                        <Pages name="Team" routes="/teams" />
                         <Pages name="Policy" routes="/policy" />
                         <Pages name="FAQ" routes="/FAQ" />
                         <Pages name="Airport" routes="/airport" />
