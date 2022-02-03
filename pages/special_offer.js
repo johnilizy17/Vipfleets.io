@@ -9,10 +9,10 @@ import * as Yup from 'yup';
 
 export default function special_offer() {
 
-    const [pagechanger, setpagechanger] = useState(false)
+    const pagechanger = false
 
     function handleSubmit(x){
-        setpagechanger(true)
+        const pagechanger =true
         axios({
 			method: 'post',
 			url: ' https://pure-crag-36612.herokuapp.com/api/auth/register',
