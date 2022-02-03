@@ -27,7 +27,17 @@ export default function About() {
                    </div>
                    <div className=" mt-2">
                         Send in your hire request either via email (<a href="mailto:joinus@vipfleets.io" className="text-brand-color">enquire@vipfleets.io</a>) or on our airport PICK/DROP dedicated WhatsApp numbers. 
-                </div>        
+                </div>      
+                <ol type="1" className="mt-2">
+             <li className="flex items-center " >
+            Hire Line:
+                <a href="callto:08102861988" className=" flex items-center ml-2">08102861988 <span className="ml-2 italic text-xs">(MTN) </span> </a>
+             </li>
+             <li className="flex items-center" >
+             Hire Line:
+             <a href="callto:07018097044" className=" flex items-center ml-2">07018097044 <span className="ml-2 italic text-xs"> (Airtel)</span> </a>
+             </li>
+            </ol>  
                         <div className="mt-5">
                             <span className="text-brand-color"> VIP FLEETS </span> is an indigenous car rental company operating in <span className="text-brand-color"> Lagos</span>, <span className="text-brand-color"> Abuja</span> and <span className="text-brand-color"> Port Harcourt</span>. Our services are designed to ease the stress of self-drive, by providing our clients with an experience of chauffeur driven vehicles in the safest, comfortable and <span className="text-brand-color"> VIP style</span> - these are standard attributes of our carefully selected fleet.
                    </div>
