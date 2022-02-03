@@ -20,7 +20,7 @@ export default function FAQ() {
                 <Questions asked=" If I cancel my hire totally do I get a refund?" result="Unfortunately, no refund on cancellation after 24hrs."/>
                 <Questions asked=" Do I get charged for change of date?" result="If the change of date is made within 24hours, there’s no charge. Any changes after 24hrs attracts a 40% fee from the total value of the hire. "/>
                 <Questions asked=" Can I get a Mopol (police escort) with my hire?" result="Yes"/>
-                <Questions asked=" Can I smoke in the car?" result="No smoking is permitted inside the vehicle "/>
+                <Questions asked=" Can I smoke in the car?" result="No smoking is permitted inside the vehicle. "/>
                 <Questions asked=" Which States do you have your operations?" result="We operate in Lagos, Abuja and Port Harcourt."/>
                 <Questions asked=" Do you offer inter-state movement outside your States of Operations?" result="Yes"/>
                 <Questions asked=" If I have a complain who do I contact?" result="Please forward all complains to any of our WhatsApp HIRE LINES."/>

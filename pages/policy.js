@@ -35,7 +35,7 @@ export default function Policy() {
                         <div className="mb-5 text-brand-color font-semibold">
                             POLICY
                       </div>
-                        <div>
+                        <div className="text-left">
                             VIP FLEETS always place the interests of our customers and their safety first. We will provide an individualized rental experience that assures customer satisfaction and earns the unwavering loyalty of our customers.
                         </div>
 
@@ -45,7 +45,7 @@ export default function Policy() {
                     <div className="mb-5 text-brand-color font-semibold">
                     VALUES
                   </div>
-                    <div>
+                    <div className="text-left">
                     VIP FLEETS is known for the importance we attach to customer satisfaction, professional drivers, ethical business behaviour and respect towards our clients and employees. We work by these principles and always adhere to them.
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export default function Policy() {
                      <div className="mb-5 text-brand-color font-semibold">
                      PRIVACY STATEMENT
                     </div>
-                      <div>
+                      <div className="text-left">
                       Here at VIP FLEETS we respect and take very seriously the privacy of our customers that is why we do NOT sell or rent any information collected through our website to third parties.
                       </div>
                       </div>
