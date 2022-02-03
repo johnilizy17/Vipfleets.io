@@ -11,6 +11,7 @@ import * as Yup from 'yup';
 import { AiOutlineCloudUpload } from 'react-icons/ai'
 import Preview from '../components/home/Preview'
 import { useDropzone } from 'react-dropzone';
+import Loading from '../components/Loading';
 
 const thumbsContainer = {
     display: 'flex',
@@ -45,6 +46,8 @@ const img = {
 
 export default function Teams() {
 
+    const [pagechanger, setpagechanger] = useState(false)
+
     const [fieldValue, setFieldValue] = useState([])
     const [files, setFiles] = useState([]);
     const { getRootProps, getInputProps } = useDropzone({
@@ -63,14 +66,13 @@ export default function Teams() {
 
 
     function handleSubmit(a) {
-        console.log(a)
-        console.log(fieldValue)
+        setpagechanger(true)
     }
 
 
     return (
         <>
-            <div className="font-serif w-screen pb-5">
+           {pagechanger ?  <Loading /> : <div className="font-serif w-screen pb-5">
                 <Navbar />
                 <Image src={teamspicture} alt="the teams image" />
                 <center className=" text-white-color lg:ml-20 sm:ml-5 sm:mb-3 sm:mr-5 relative lg:bottom-40 sm:bottom-32">
@@ -83,7 +85,8 @@ export default function Teams() {
                 </center>
                 <div className=" lg:ml-20 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
                     <div className="lg:basis-2/6">
-                        Want to partner with us? List your vehicle with VIP FLEETS. You can easily make back the value of your vehicle in a year.
+                        Want to partner with us? 
+                       <div className="lg:mt-5 sm:mt-2"> List your vehicle with VIP FLEETS. You can easily make back the value of your vehicle in a year.</div>
              </div>
                     <div className="lg:basis-2/6 lg:mt-2 sm:mt-2">
                         Partner with us today and you could be earning up to N500K per month on your vehicle.
@@ -189,7 +192,7 @@ export default function Teams() {
                         </Card>
                     </div>
                 </div>
-            </div>
+            </div>}
             <News />
         </>
     )

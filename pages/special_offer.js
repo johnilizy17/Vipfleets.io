@@ -9,15 +9,41 @@ import * as Yup from 'yup';
 
 export default function special_offer() {
 
-    const formsubittion = false
+    const [pagechanger, setpagechanger] = useState(false)
 
     function handleSubmit(x){
-        const formsubittion =true
+        setpagechanger(true)
+        axios({
+			method: 'post',
+			url: ' https://pure-crag-36612.herokuapp.com/api/auth/register',
+			header: {
+				"accept": "application/json",
+				"Content-Type": "application/json"
+			},
+			data: {
+				"FullName": x.FullName,
+				"TelephoneNumber": x.TelephoneNumber,
+				"City": "City",
+				"Email": x.Email
+			}
+		}).then((res) => {
+			if (res.data === "user not found" || res.data === "wrong password") {
+                alert("Email already registered")
+                setpagechanger(false)
+			} else {
+				console.log(res.data)
+				setClicked(true)
+                alert.show("successful")
+                setpagechanger(false)
+			}
+		}).catch((err) => {
+			alert.show("Please complete all the form")
+		})
     }
 
     return (
         <>
-        {formsubittion ? <Loading/> :
+        {pagechanger ? <Loading/> :
         <div className="font-serif">
             <Navbar />
             <div className="lg:flex">
