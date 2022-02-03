@@ -28,6 +28,7 @@ export default function News() {
                         <Pages name="Airport" routes="/airport" />
                         <Pages name="Fleets" routes="/fleets" />
                         <Pages name="Partnership" routes="/partner" />
+                        <Pages name="Term" routes="/term" />
                         <Pages name="Special Offer" routes="/special_offer" />
                     </div>
                 </div>
