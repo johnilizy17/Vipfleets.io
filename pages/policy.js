@@ -11,7 +11,7 @@ export default function Policy() {
         <div className="font-serif  pb-5">
             <Navbar />
             <div className="lg:flex h-screen lg:ml-20 sm:ml-5 lg:mr-20 sm:mr-5">
-                <div className="basis-1/4 sm:flex lg:flex-col flex sm:items-center sm:mb-2  ">
+                <div className="basis-1/4 sm:flex lg:flex-col flex sm:items-center sm:mb-2 lg:cursor-pointer ">
                     <div className={toggle == true && "bg-brand-color text-white-color p-2"} onClick={() =>{ setToggle(true)
                     
                     setprivacy(false)

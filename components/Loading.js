@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function loading(){
     return(
-        <div className="h-screen w-screen flex flex-col justify-center items-center">
+        <div className="h-screen w-screen z-50 flex flex-col justify-center items-center">
         <div className="animate-bounce">
          <Image src='/favicon.ico' alt="loading" width={100} height={100}  />
         </div>

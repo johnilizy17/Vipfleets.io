@@ -1,12 +1,23 @@
+import React,{useState} from 'react'
 import Navbar from '../components/Header/Navbar';
 import News from '../components/home/News';
 import lagos from '../asset/lagos.jpg'
 import Image from 'next/image'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
+import Loading from '../components/Loading';
 import * as Yup from 'yup';
 
 export default function special_offer() {
+
+    const [formsubittion, setformsubittion] = useState(false)
+
+    function handleSubmit(x){
+        setformsubittion(true)
+    }
+
     return (
+        <>
+        {formsubittion ? <Loading/> :
         <div className="font-serif">
             <Navbar />
             <div className="lg:flex">
@@ -23,7 +34,7 @@ export default function special_offer() {
                         })}
 
                         onSubmit={(values, { setSubmitting }) => {
-
+                            handleSubmit(values)
                         }}
                     >
                         {({
@@ -68,6 +79,7 @@ export default function special_offer() {
             <div className="mt-5">
             <News/>
             </div>
-        </div>
+        </div>}
+        </>
     )
 }
