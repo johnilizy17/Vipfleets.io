@@ -47,7 +47,7 @@ export default function Fleets() {
         <div className="font-serif lg:bg-snow pb-5 h-screen">
             <Navbar />
             <div className=" sm:hidden flex lg:text-3xl flex-col items-center justify-center font-semibold text-brand-color mb-5">
-                Most popular cars hired in VIP FLEETS are listed below.
+                Most popular cars hired at VIP FLEETS are listed below.
                 <div className="mt-5 font-normal  mb-5 text-2xl text-black">
                       Not seeing what you like?<br/>
                       <div className="mt-2">Visit our instagram page <a href="">(VIP FLEETS)</a> or call any of our hire lines and speak to a member of our team members.</div>
@@ -67,7 +67,7 @@ export default function Fleets() {
                     return <Card key={data} style={{ width: 300, display: "flex", flexDirection: "column", cursor: "pointer", justifyContent: "center", alignItems: "center", marginBottom: 20, height: 330 }}>
                         <Image src={data.image} alt="images"  />
                         <a href="https://wa.me/+2347018097044" className="bg-brand-color p-2 cursor-pointer rounded-md text-white-color" onClick={()=>console.log("helo")}>
-                            Hire new!!
+                            Hire now
                         </a>
                     </Card>
                 })}
