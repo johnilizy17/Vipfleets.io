@@ -91,10 +91,10 @@ export default function special_offer() {
                                     <div className=" mt-5 xl:mt-8 text-center xl:text-left">
                                         <button className="rounded-md bg-brand-color py-3 px-4 w-full xl:w-32 xl:mr-3 text-white-color align-top" type="submit">Sumbit</button>
                                         </div>
-                                        <div className="text-xs mt-2 text-footer" style={{width:350}}>
+                                        <div className="text-xs mt-2 text-footer text-left" style={{width:350}}>
                                         Please fill out this form in order to receive SPECIAL DISCOUNTS and PROMOTIONAL OFFERS from VIP FLEETS
                                         </div>
-                                        <div className="text-xs mt-2 text-footer" style={{width:350}}>
+                                        <div className="text-xs mt-2 text-footer text-left" style={{width:350}}>
                                         For a quick quotation send a mail to <a href="mailto:enquiry@vipfleets.io" className="text-brand-color"> enquiry@vipfleets.io </a>
                                         </div>
                                 </form>
