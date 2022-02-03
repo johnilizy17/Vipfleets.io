@@ -23,7 +23,7 @@ export default function About() {
                 <div className=" lg:m-20 lg:mt-20 relative lg:bottom-32 sm:bottom-36  lg:mb-10 sm:m-5 sm:mb-10">
                     <div className="basis-2/5">
                         <div className="lg:mt-5 sm:mt-20">
-                        Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.
+                        Don’t be left stranded at the airport. To schedule a ride to or from the airport is easy, convenient and reliable.
                    </div>
                    <div className=" mt-2">
                         Send in your hire request either via email (<a href="mailto:joinus@vipfleets.io" className="text-brand-color">enquire@vipfleets.io</a>) or on our airport PICK/DROP dedicated WhatsApp numbers. 
