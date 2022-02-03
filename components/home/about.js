@@ -21,7 +21,7 @@ export default function Airport() {
                    </div>
                         <div className="mt-5 text-justify">
                             We have a large fleet of vehicles for you to select from, why not press on  <Link passHref={true} href="/fleets">
-                                <span className="text-justify text-brand-color font-bold cursor-pointer underline ml-2 mr-2 w-8">OUR FLEETS </span>
+                                <span className="text-justify text-brand-color font-bold cursor-pointer underline mr-1">OUR FLEETS</span>
                             </Link> to view and hire the perfect ride for you.
                   </div>
                         <div className="mt-5 text-justify">
