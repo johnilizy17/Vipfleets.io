@@ -27,7 +27,7 @@ export default function About() {
                    </div>
                    <div className="lg:mt-5 sm:mt-2">
                    Our airport pickup  and drop service is available at all Lagos terminals, we also operate similar services in Abuja and Port Harcourt.   </div>
-                   <div className=" mt-2">
+                   <div className="text-left mt-2">
                         Send in your hire request either via email (<a href="mailto:joinus@vipfleets.io" className="text-brand-color">enquire@vipfleets.io</a>) or on our airport PICK/DROP dedicated WhatsApp numbers. 
                 </div>      
                 <ol type="1" className="mt-2">
