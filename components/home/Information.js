@@ -77,7 +77,7 @@ export default function CustomerFeedBack() {
                     </div >
                     <div className="w-4/5 float-right text-justify mb-2 mt-5 m-20">
                         Our management team would love to hear from you, whether it is to share your experiences or just to motive us, send us a quick email to<a href="mailto:feedback@vipfleets.io" className="text-brand-color"> feedback@vipfleets.io.</a>
-                        <span className="text-xs"><br /> (opps they sometimes get carried away attending to numerous of hire request daily, don’t worry we always respond)</span>
+                        <span className="text-xs"><br /> (opps they sometimes get carried away attending to numerous of hire request daily, don’t worry we always respond).</span>
 
                     </div>
                 </div>
@@ -152,7 +152,7 @@ export default function CustomerFeedBack() {
                     </div >
                     <div className="w-4/5 text-justify  mb-2 mt-5 m-5">
                         Our management team would love to hear from you, whether it is to share your experiences or just to motive us, send us a quick email to<a href="mailto:feedback@vipfleets.io" className="text-brand-color"> feedback@vipfleets.io.</a>
-                        <span className="text-xs text-justify"><br /> (opps they sometimes get carried away attending to numerous of hire request daily, don’t worry we always respond)</span>
+                        <span className="text-xs text-justify"><br /> (opps they sometimes get carried away attending to numerous of hire request daily, don’t worry we always respond).</span>
 
                     </div>
                 </div>
