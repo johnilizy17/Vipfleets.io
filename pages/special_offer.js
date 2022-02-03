@@ -9,10 +9,10 @@ import * as Yup from 'yup';
 
 export default function special_offer() {
 
-    const [formsubittion, setFormsubittion] = useState(false)
+    const formsubittion = false
 
     function handleSubmit(x){
-        setFormsubittion(true)
+        const formsubittion =true
     }
 
     return (
