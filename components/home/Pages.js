@@ -7,7 +7,7 @@ export default function Pages({ name, routes }) {
 
     return (
         <Link passHref={true} href={routes}>
-            <div className={route.pathname == routes ? "mb-2 text-brand-color cursor-pointer" : "mb-2 cursor-pointer"} >
+            <div className={route.pathname == routes ? "mb-2 text-brand-color lg:cursor-pointer" : "mb-2 lg:cursor-pointer"} >
                 <ol className="list-disc">
                     <li>
 

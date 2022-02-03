@@ -25,7 +25,7 @@ export default function Footer(){
 
          </div>
          <div className="mt-2 text-justify text-sm">
-           Click here to use google map to get to our Office <button className="ml-10 bg-google p-2  rounded-md text-white-color">Google Map</button>
+           Click here to use google map to get to our Office <a href="https://www.google.com/maps/search/+Address:+Corporate+Head+Office+Bakky+Plaza+Agungi+Lekki+Express+Way+Lagos+Nigeria/@6.467374,3.521673,12.99z" className="ml-10 bg-google p-2  rounded-md text-white-color">Google Map</a>
           </div>
           <div className="mt-10">
           <span className="text-brand-color text-lg font-semibold">Contact us through our mails:</span>
