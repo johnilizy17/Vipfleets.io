@@ -11,6 +11,10 @@ import Range from '../asset/cars/rover.jpg';
 import pardo from '../asset/cars/prado.jpg';
 import pardo2 from '../asset/cars/prado2.jpg';
 import lx570 from '../asset/cars/lx570.jpg';
+import land from '../asset/cars/land.png';
+import landcursier from '../asset/cars/landcursier.png';
+import royce from '../asset/cars/royce.png'
+
 export default function Fleets() {
 
     const LoadImage = [
@@ -26,10 +30,18 @@ export default function Fleets() {
         {
             "image": ford,
         },
+        
+        {
+            "image": land,
+        },
         {
             "image": haicebus,
         },
+        
         {
+            "image": landcursier,
+        },
+         {
             "image": hiluxbus,
         },
         {
@@ -41,6 +53,10 @@ export default function Fleets() {
         {
             "image": lx570,
         },
+        {
+            "image": royce,
+        },
+       
     ]
 
     return (
