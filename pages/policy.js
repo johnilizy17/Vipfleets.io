@@ -36,7 +36,7 @@ export default function Policy() {
                             POLICY
                       </div>
                         <div className="text-left">
-                            VIP FLEETS always place the interests of our customers and their safety first. We will provide an individualized rental experience that assures customer satisfaction and earns the unwavering loyalty of our customers.
+                            VIP FLEETS always place the interests of our customers and their safety first.<div className="mt-2"> We will provide an individualized rental experience that assures customer satisfaction and earns the unwavering loyalty of our customers.</div>
                         </div>
 
                     </div>}
