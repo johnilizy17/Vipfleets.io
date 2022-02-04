@@ -25,9 +25,9 @@ export default function CustomerFeedBack() {
                     </div>
                     <div className="w-4/5 float-right text-justify m-20 mb-5 mt-0">
                         Since our launch, we have been privileged to chauffeur uncountable clients. Our team were able to get conduct reviews on our client experiences.<br />
-                        <span className="text-xs text-justify">
+                        <div className="text-xs text-left ">
                             (Visit our <a href="https://www.instagram.com/vipfleets" className="text-brand-color">IG page VIPFLEETS,</a> for customer feedback of exact reviews).
-                     </span>
+                     </div>
                     </div>
                     <div className="w-4/5  float-right bg-brand-color h-50 text-white-color" >
                         <div className="mt-20  flex flex-col justify-center items-center ">
@@ -100,8 +100,8 @@ export default function CustomerFeedBack() {
                     </div>
                     <div className="m-5 mb-5 text-justify mt-0">
                         Since our launch, we have been privileged to chauffeur uncountable clients. Our team were able to get conduct reviews on our client experiences.<br />
-                        <div className="text-xs tracking-tighter">
-                            (Visit our <a href="https://www.instagram.com/vipfleets" className="text-brand-color">IG page VIPFLEETS,</a> for customer feedback of exact reviews).
+                        <div className="text-xs tracking-tighter flex">
+                            (<div>Visit our <a href="https://www.instagram.com/vipfleets" className="text-brand-color">IG page VIPFLEETS,</a> for customer feedback of exact reviews</div>).
                      </div>
                     </div>
                     <div className="bg-brand-color text-justify pt-20 h-60 text-white-color" >

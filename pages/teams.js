@@ -13,7 +13,7 @@ export default function Teams() {
                         TEAM
               </div>
                     <div className="lg:text-2xl w-5/5">
-                        {"Customer service is not a department, it's everyone's job"}
+                        {"Customer service is not a department, it's everyone's job."}
             </div>
                 </center>
                 <div className=" lg:ml-20 mt-5 relative lg:bottom-20 sm:bottom-20 lg:pt-10 lg:mr-20 sm:ml-5 sm:mr-5">
