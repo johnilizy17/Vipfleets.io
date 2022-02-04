@@ -42,7 +42,7 @@ export default function News() {
                             <a className="mr-5" href="https://www.twitter.com/vipfleets/">
                                 <BsTwitter />
                             </a>
-                            <a className="mr-5" href="https://www.linkedin.com/in/vip-fleets-365a60230/">
+                            <a className="mr-5" href="https://www.linkedin.com/in/vip-fleets-365a60230">
                                 <BsLinkedin />
                             </a>
                         </div>
