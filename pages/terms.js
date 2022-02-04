@@ -14,8 +14,8 @@ export default function FAQ() {
                  </div>
                  <ol className="w-screen list-decimal flex flex-col mt-10 justify-center items-center ">
                 <Questions asked="Terms and Conditions" result="terms"/>
-                <Questions asked=" Confirming your booking and taking payment" result="payment"/>
-                <Questions asked=" Accuracy of Information" result="information"/>
+                <Questions asked="Confirming your booking and taking payment" result="payment"/>
+                <Questions asked="Accuracy of Information" result="information"/>
                 <Questions asked="Driver, Fuelling and Car Park Charge" result="fuelling"/>
                 <Questions asked="Hire Duration" result="hire"/>
                 <Questions asked="Driving Areas Restrictions" result="restriction"/>

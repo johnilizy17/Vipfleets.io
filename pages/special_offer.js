@@ -6,39 +6,43 @@ import Image from 'next/image'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import Loading from '../components/Loading';
 import * as Yup from 'yup';
+import {useAlert} from 'react-alert';
 
 export default function special() {
 
-    const pagechanger = false
+    const [animation, setAnimation] = useState()
+    const alert = useAlert()
 
     function handleSubmit(x) {
-        console.log(x)
-        // axios({
-        //     method: 'post',
-        //     url: ' https://pure-crag-36612.herokuapp.com/api/auth/register',
-        //     header: {
-        //         "accept": "application/json",
-        //         "Content-Type": "application/json"
-        //     },
-        //     data: {
-        //         "FullName": x.FullName,
-        //         "TelephoneNumber": x.TelephoneNumber,
-        //         "City": "City",
-        //         "Email": x.Email
-        //     }
-        // }).then((res) => {
-        //     if (res.data === "user not found" || res.data === "wrong password") {
-        //         alert("Email already registered")
-        //         setpagechanger(false)
-        //     } else {
-        //         console.log(res.data)
-        //         setClicked(true)
-        //         alert.show("successful")
-        //         setpagechanger(false)
-        //     }
-        // }).catch((err) => {
-        //     alert.show("Please complete all the form")
-        // })
+
+        setAnimation(true)
+        axios({
+            method: 'post',
+            url: ' https://pure-crag-36612.herokuapp.com/api/auth/register',
+            header: {
+                "accept": "application/json",
+                "Content-Type": "application/json"
+            },
+            data: {
+                "FullName": x.FullName,
+                "TelephoneNumber": x.TelephoneNumber,
+                "City": "City",
+                "Email": x.Email
+            }
+        }).then((res) => {
+            if (res.data === "user not found" || res.data === "wrong password") {
+                alert("Email already registered")
+                setpagechanger(false)
+            } else {
+                console.log(res.data)
+                setClicked(true)
+                alert.show("successful")
+                setpagechanger(false)
+            }
+        }).catch((err) => {
+            alert.show("Please complete all the form")
+        })
+        setAnimation(false)
     }
 
     return (
@@ -55,7 +59,7 @@ export default function special() {
                                 initialValues={{ email: "", FullName:"", city:""}}
                                 validationSchema={Yup.object({
                                     FullName: Yup.string().required("Required"),
-                                   color: Yup.string().required("Required"),
+                                   city: Yup.string().required("Required"),
                                     email: Yup.string().email('invalid email address').required('Required'),
                                 })}
 
@@ -79,16 +83,16 @@ export default function special() {
                                                 <div style={{ color: "red" }}>
                                                     <ErrorMessage name="FullName" />
                                                </div>
-                                                <select
-                                                    name="color"
+                                                <Field
+                                                as="select"
+                                                    name="city"
                                                     value={values.color}
                                                     style={{ width: 350 }} className=" rounded-md form-control py-3 px-4 pr-5 border-black border-2 block mt-4"
                                                 >
-                                                    <option value="" label="Select a city" />
                                                     <option value="Abuja(FCT)" label="Abuja(FCT)" />
                                                     <option value="Lagos" label="Lagos" />
                                                     <option value="Port Hacourt" label="Port Hacourt" />
-                                                </select>
+                                                </Field>
                                                 <div style={{ color: "red" }}>
                                                     <ErrorMessage name="city" />
                                                 </div>
