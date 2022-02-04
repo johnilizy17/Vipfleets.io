@@ -4,8 +4,20 @@ import Head from 'next/head'
 import Whatsapp from '../components/Whatsapp/Whatsapp';
 import Marquee from 'react-fast-marquee';
 import Router from 'next/router';
+import AlertTemplate from 'react-alert-template-basic'
+import { transitions, positions, Provider as AlertProvider } from 'react-alert'
 
 function MyApp({ Component, pageProps }) {
+
+  const options = {
+    // you can also just use 'bottom center'
+    position: positions.BOTTOM_CENTER,
+    timeout: 5000,
+    offset: '30px',
+    // you can also just use 'scale'
+    transition: transitions.SCALE
+  }
+
   return (
     <>
     <Head>
@@ -28,9 +40,11 @@ function MyApp({ Component, pageProps }) {
         gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});`
         }
     </Script>
+    <AlertProvider template={AlertTemplate} {...options}>
     <div className="text-justify">
       <Component {...pageProps} />
      </div>
+     </AlertProvider>
       <div className="fixed bottom-8 z-20 right-0">
       <Whatsapp/>
       </div>
