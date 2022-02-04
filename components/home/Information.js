@@ -100,9 +100,9 @@ export default function CustomerFeedBack() {
                     </div>
                     <div className="m-5 mb-5 text-justify mt-0">
                         Since our launch, we have been privileged to chauffeur uncountable clients. Our team were able to get conduct reviews on our client experiences.<br />
-                        <span className="text-xs">
+                        <div className="text-xs tracking-tighter">
                             (Visit our <a href="https://www.instagram.com/vipfleets" className="text-brand-color">IG page VIPFLEETS,</a> for customer feedback of exact reviews).
-                     </span>
+                     </div>
                     </div>
                     <div className="bg-brand-color text-justify pt-20 h-60 text-white-color" >
                         <div style={{width:"100%",height:100, display:"grid", justifyContent:"center", alignItems:"center" }}>
