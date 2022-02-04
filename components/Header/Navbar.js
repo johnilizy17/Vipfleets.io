@@ -37,7 +37,7 @@ export default function Navbar() {
                 <div className="lg:hidden sm:flex items-center m-5 items-center">
                     
                         <Link passHref={true} href="/">
-                            <div className="cursor-pointer mt-2" >
+                            <div className="cursor-pointer mt-2"  style={{flex:1}}>
                                 <Image src={logo} alt="vipfleets logo" width={50} height={50} />
                             </div>
                         </Link>
