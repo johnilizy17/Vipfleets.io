@@ -10,7 +10,7 @@ export default function FAQ() {
                TERMS AND CONDITIONS
                 </div>
                 <div className="italic text-center sm:ml-5 sm:mr-5 mt-2">
-                {"These Terms and Condition reflect the way VIP FLEETS business works."}
+                {"These Terms and Conditions reflect the way VIP FLEETS business works."}
                  </div>
                  <ol className="w-screen list-decimal flex flex-col mt-10 justify-center items-center ">
                 <Questions asked="Terms and Conditions" result="terms"/>
