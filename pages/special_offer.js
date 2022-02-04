@@ -47,7 +47,7 @@ export default function Special() {
 
     return (
         <>
-            {pagechanger ? <Loading /> :
+            {animation? <Loading /> :
                 <div className="font-serif">
                     <Navbar />
                     <div className="lg:flex">
