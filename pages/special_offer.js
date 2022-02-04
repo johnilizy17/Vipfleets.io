@@ -8,7 +8,7 @@ import Loading from '../components/Loading';
 import * as Yup from 'yup';
 import {useAlert} from 'react-alert';
 
-export default function special() {
+export default function Special() {
 
     const [animation, setAnimation] = useState()
     const alert = useAlert()
