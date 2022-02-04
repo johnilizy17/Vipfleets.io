@@ -35,13 +35,13 @@ export default function Navbar() {
             <div>
                 <div className={menubar ? "lg:hidden  bg-white-color mt-5 z-20 w-screen" :"lg:hidden -mt-2 h-screen bg-white-color   z-20 w-screen top-0 fixed"}>
                 <div className="lg:hidden sm:flex items-center m-5 items-center">
-                    <div className="basis-full">
+                    
                         <Link passHref={true} href="/">
                             <div className="cursor-pointer mt-2" >
                                 <Image src={logo} alt="vipfleets logo" width={50} height={50} />
                             </div>
                         </Link>
-                    </div>
+                    
                     <div onClick={() => {
                         if (menubar) {
                             setmenubar(false)

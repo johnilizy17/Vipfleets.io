@@ -32,7 +32,7 @@ export default function Airport() {
                             ‘We treat our clients like VIPs’.
                   </div>
                         <div className="text-justify ">
-                            Please download the list below to obtain a copy of our most recent price list for the year (2022).
+                            Please download the document below to obtain a copy of our most recent price list for the year (2022).
                        </div>
                         <a href="/price.pdf" download="price list.pdf"><button className="p-2 text-justify mt-2 flex items-center bg-brand-color text-white-color rounded-md"> Download Price List <AiOutlineDownload className="ml-5" /></button></a>
                     </div>
