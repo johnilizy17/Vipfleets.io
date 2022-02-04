@@ -31,7 +31,7 @@ export default function About() {
                    <div className="text-left mt-2">
                         Send in your hire request either via email (<a href="mailto:joinus@vipfleets.io" className="text-brand-color">enquire@vipfleets.io</a>) or on our airport PICK/DROP dedicated WhatsApp numbers. 
                 </div>      
-                <ol type="1" className="mt-2">
+                <ol type="1" className="mt-5">
              <li className="flex items-center " >
             Hire Line:
                 <a href="callto:08102861988" className=" flex items-center ml-2">08102861988 <span className="ml-2 italic text-xs">(MTN) </span> </a>
@@ -41,7 +41,9 @@ export default function About() {
              <a href="callto:07018097044" className=" flex items-center ml-2">07018097044 <span className="ml-2 italic text-xs"> (Airtel)</span> </a>
              </li>
             </ol>  
-                        
+            <div className="text-xs mt-2">
+                                    {" (These numbers are on WhatsApp)"}
+                                </div>
                        
                        </div>
 
