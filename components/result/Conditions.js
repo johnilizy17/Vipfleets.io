@@ -58,7 +58,7 @@ export default function AnswerQuestion({ asked, result }) {
                         Here at VIP FLEETS all our vehicles are assigned with a professional, trained and licenced chauffeur, we do not permit self-drive.
                     </div>
                     <div>
-                        In the event where the hire duration exceeds a day or hire is outside the cities we operate <span className="text-brand-color"> (Lagos, Abuja and Port Harcourt)</span> , our customers are given the opportunity to fuel but in most cases all our hires are inclusive of fuelling by the company.
+                        In the event where the hire duration exceeds a day or hire is outside the cities we operate <span className="text-brand-color"> (Lagos, Abuja and Port Harcourt),</span> our customers are given the opportunity to fuel but in most cases all our hires are inclusive of fuelling by the company.
                     </div>
                     <div className="sm:mt-2 lg:mt-5">
                         Fees for car park within an hour of waiting is payable by the company, waiting time after 1 hour is charged to the client.
@@ -129,7 +129,7 @@ export default function AnswerQuestion({ asked, result }) {
                         A member of our team will respond to your email within 2hours. Most complaints are usually solved internally, and our feedback would certainly be mailed to the customer.
                     </div>
                     <div className="sm:mt-2 lg:mt-5">
-                        We accept no responsibility for and shall not be liable in respect of any forgotten, damage and alterations of any left items in any of our vehicle.
+                        We accept no responsibility for, nor shall we held liable for any items that are damaged, altered or which have been forgotten or left in the vehicles.
                     </div>
                 </div>
             )

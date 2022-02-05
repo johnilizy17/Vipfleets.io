@@ -35,7 +35,7 @@ export default function Policy() {
                         <div className="mb-5 text-brand-color font-semibold">
                             POLICY
                       </div>
-                        <div className="text-left bg-favoc bg-contain bg-center bg-no-repeat">
+                        <div className="text-left">
                             VIP FLEETS always place the interests of our customers and their safety first.<div className="mt-2"> We will provide an individualized rental experience that assures customer satisfaction and earns the unwavering loyalty of our customers.</div>
                         </div>
 
