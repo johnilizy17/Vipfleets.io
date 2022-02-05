@@ -5,13 +5,15 @@ import { Button, Card } from '@mui/material'
 import airport from '../asset/airport2.jpg'
 import Image from 'next/image'
 import { AiOutlineDownload, AiOutlineArrowRight } from 'react-icons/ai';
-import News from '../components/home/News'
+import News from '../components/home/News';
+import { Carousel } from 'react-responsive-carousel';
 
 export default function About() {
     return (
         <>
             <div className="font-serif sm:-mb-10">
                 <Navbar />
+                
                 <Image src={airport} alt="the teams image" />
                 <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
                     <div className="font-semibold lg:text-3xl sm:text-2xl">

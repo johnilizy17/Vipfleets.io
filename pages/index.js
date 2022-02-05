@@ -16,13 +16,10 @@ export default function Home() {
       <Slide/>
       <Airports/>
       <CustomerFeedBack/>
-      <div className="bg-grey">
+      <div className="">
       <Footer/>
       <News/>
       </div>
-      <div className="fixed bottom-8 right-0">
-      <Whatsapp/>
-      </div>
-    </div>
+     </div>
   )
 }

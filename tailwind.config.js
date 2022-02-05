@@ -11,7 +11,8 @@ module.exports = {
  },
  extend :{
    backgroundImage: theme => ({
-     "car-img":"url('../asset/cars/pardo.jpg')"
+     "car-img":"url('../asset/cars/pardo.jpg')",
+     "favoc":"url('../public/favicon.ico')"
    })
  },
  colors: {
