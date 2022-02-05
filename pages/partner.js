@@ -66,12 +66,43 @@ export default function Teams() {
 
     function handleSubmit(a) {
         setpagechanger(true)
+        setTimeout(
+            axios({
+                method: 'post',
+                url: ' https://pure-crag-36612.herokuapp.com/api/auth/register',
+                header: {
+                    "accept": "application/json",
+                    "Content-Type": "application/json"
+                },
+                data: {
+                    "FullName": x.FullName,
+            "TelephoneNumber": x.Telephone,
+            "City": x.city,
+            "Email": x.email
+                }
+            }).then((res) => {
+                if (res.data === "user not found" || res.data === "wrong password") {
+                    alert("Email already registered")
+                    setAnimation(false)
+                } else {
+                    console.log(res.data)
+                    setClicked(true)
+                    alert.show("successful")
+                    setAnimation(false)
+                }
+            }).catch((err) => {
+                setAnimation(false)
+                alert.show("Partner already registered")
+                console.log(err)
+            })
+        , 5000)
     }
+    
 
 
     return (
         <>
-           {pagechanger ?  <Loading /> : <div className="font-serif w-screen pb-5">
+           {pagechanger ?  <Loading /> : <div className="font-serif w-screen -mb-10">
                 <Navbar />
                 <Image src={teamspicture} alt="the teams image" />
                 <center className=" text-white-color lg:ml-20 sm:ml-5 sm:mb-3 sm:mr-5 relative lg:bottom-40 sm:bottom-32">
