@@ -16,7 +16,7 @@ export default function Ride() {
                 <Image src={pardo} alt="pardo" />
             </div>
             <div>
-                <div className="sm:-mb-60">
+                <div className="sm:-mb-10">
                     <div>
                         <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-40 sm:bottom-32">
                             <div className="lg:text-3xl sm:text-2xl text-center font-semibold">
@@ -47,16 +47,14 @@ export default function Ride() {
                                         <IoIosCall className="mr-2" />  07018097044 <span className="ml-2 italic text-xs"> (Airtel)</span>
                                </div>
                                 </a>
-                                <div className="text-xs mt-2">
+                                <div className="text-xs mt-2 sm:-mb-20">
                                     {" (These numbers are on WhatsApp)"}
                                 </div>
                             </div>
                         </div>
                         <div>
-
                         </div>
-                        <div className="basis-3/4">
-                        </div>
+                        
                     </div>
                 </div>
                 <div>
