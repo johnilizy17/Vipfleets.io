@@ -37,7 +37,7 @@ export default function Airport() {
                         <div className="text-justify ">
                             Please download the document below to obtain a copy of our most recent price list for the year (2022).
                        </div>
-                        <a href="/price.pdf" onClick={()=>alert.show("successfully doenloaded")} download="price list.pdf"><button className="p-2 text-justify mt-2 flex items-center bg-brand-color text-white-color rounded-md"> Download Price List <AiOutlineDownload className="ml-5" /></button></a>
+                        <a href="/price.pdf" onClick={()=>alert.show("successfully doenloaded")} download="price list.pdf"><button className="p-2 text-justify mt-2 flex items-center bg-brand-color text-white-color font-serif rounded-md"> Download Price List <AiOutlineDownload className="ml-5 animate-bounce" /></button></a>
                     </div>
                     <div className="mt-5 text-justify flex justify-center items-center">
                         <div className="flex w-4/5 justify-between">
