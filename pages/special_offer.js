@@ -7,6 +7,7 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import Loading from '../components/Loading';
 import * as Yup from 'yup';
 import {useAlert} from 'react-alert';
+import axios from 'axios';
 
 export default function Special() {
 
@@ -16,33 +17,37 @@ export default function Special() {
     function handleSubmit(x) {
 
         setAnimation(true)
-        axios({
-            method: 'post',
-            url: ' https://pure-crag-36612.herokuapp.com/api/auth/register',
-            header: {
-                "accept": "application/json",
-                "Content-Type": "application/json"
-            },
-            data: {
-                "FullName": x.FullName,
-                "TelephoneNumber": x.TelephoneNumber,
-                "City": x.City,
-                "Email": x.Email
-            }
-        }).then((res) => {
-            if (res.data === "user not found" || res.data === "wrong password") {
-                alert("Email already registered")
+       
+        setTimeout(
+            axios({
+                method: 'post',
+                url: ' https://pure-crag-36612.herokuapp.com/api/auth/register',
+                header: {
+                    "accept": "application/json",
+                    "Content-Type": "application/json"
+                },
+                data: {
+                    "FullName": x.FullName,
+            "TelephoneNumber": x.Telephone,
+            "City": x.city,
+            "Email": x.email
+                }
+            }).then((res) => {
+                if (res.data === "user not found" || res.data === "wrong password") {
+                    alert("Email already registered")
+                    setAnimation(false)
+                } else {
+                    console.log(res.data)
+                    setClicked(true)
+                    alert.show("successful")
+                    setAnimation(false)
+                }
+            }).catch((err) => {
                 setAnimation(false)
-            } else {
-                console.log(res.data)
-                setClicked(true)
-                alert.show("successful")
-                setAnimation(false)
-            }
-        }).catch((err) => {
-            alert.show("Please complete all the form")
-        })
-        setAnimation(false)
+                alert.show("Email already registered")
+                console.log(err)
+            })
+        , 5000)
     }
 
     return (
@@ -94,6 +99,7 @@ export default function Special() {
                                                     value={values.color}
                                                     style={{ width: 350 }} className=" rounded-md form-control py-3 px-4 pr-5 border-black border-2 block mt-4"
                                                 >
+                                                    <option value="" label="select a city" />
                                                     <option value="Abuja(FCT)" label="Abuja(FCT)" />
                                                     <option value="Lagos" label="Lagos" />
                                                     <option value="Port Hacourt" label="Port Hacourt" />
