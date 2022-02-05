@@ -8,7 +8,7 @@ export default function Policy() {
     const [toggle, setToggle] = useState(true)
     const [privacy, setprivacy] = useState(false)
     return (
-        <div className="font-serif  pb-5">
+        <div className="font-serif pb-5">
             <Navbar />
             <div className="lg:flex h-screen lg:ml-20 sm:ml-5 lg:mr-20 sm:mr-5">
                 <div className="basis-1/4 sm:flex lg:flex-col flex sm:items-center sm:mb-2 lg:cursor-pointer ">
@@ -35,7 +35,7 @@ export default function Policy() {
                         <div className="mb-5 text-brand-color font-semibold">
                             POLICY
                       </div>
-                        <div className="text-left">
+                        <div className="text-left bg-favoc bg-contain bg-center bg-no-repeat">
                             VIP FLEETS always place the interests of our customers and their safety first.<div className="mt-2"> We will provide an individualized rental experience that assures customer satisfaction and earns the unwavering loyalty of our customers.</div>
                         </div>
 

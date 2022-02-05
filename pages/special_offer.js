@@ -47,7 +47,7 @@ export default function Special() {
 
     return (
         <>
-            {animation? <Loading /> :
+            {animation && <Loading /> }
                 <div className="font-serif">
                     <Navbar />
                     <div className="lg:flex">
@@ -123,7 +123,7 @@ export default function Special() {
                     <div className="mt-5">
                         <News />
                     </div>
-                </div>}
+                </div>
         </>
     )
 }
