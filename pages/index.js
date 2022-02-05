@@ -16,7 +16,7 @@ export default function Home() {
       <Slide/>
       <Airports/>
       <CustomerFeedBack/>
-      <div className="">
+      <div className=" bg-favoc bg-gradient-to-tr	">
       <Footer/>
       <News/>
       </div>

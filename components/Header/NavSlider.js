@@ -9,7 +9,7 @@ export default function Navbutton({name,links}) {
 
     return (
         <Link passHref={true} href={links}>
-            <div className={route.pathname == links ? "pl-2 pb-5 text-brand-color font-semibold" : "font-semibold pl-2 pb-5"}>{name}</div>
+            <div className={route.pathname == links ? "pl-2 pb-5 text-brand-color font-semibold" : "font-semibold text-white-color pl-2 pb-5"}>{name}</div>
         </Link>
 
     )
