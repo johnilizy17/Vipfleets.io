@@ -33,7 +33,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div>
-                <div className={menubar ? "lg:hidden  bg-white-color mt-5 z-20 w-screen" :"lg:hidden -mt-2 h-screen bg-white-color   z-20 w-screen top-0 fixed"}>
+                <div className={menubar ? "lg:hidden   bg-white-color mt-5 z-20 w-screen" :"lg:hidden bg-car-img bg-no-repeat bg-cover -mt-2 h-screen bg-white-color   z-20 w-screen top-0 fixed"}>
                 <div className="lg:hidden sm:flex items-center m-5 items-center">
                     
                         <Link passHref={true} href="/">
@@ -54,7 +54,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 {!menubar &&
-                    <div className="flex flex-col pl-2 basis-2/3 pb-10   bg-white-color font-semibold" style={{width:"100%"}}>
+                    <div className="flex flex-col pl-2 basis-2/3 pb-10   font-semibold" style={{width:"100%"}}>
                     <NavSlider links= "/" name="Home"/>
                     <NavSlider links= "/ride" name="Hire a Ride"/>
                     <NavSlider links="/fleets" name="Fleets"/>

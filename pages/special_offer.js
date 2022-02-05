@@ -26,18 +26,18 @@ export default function Special() {
             data: {
                 "FullName": x.FullName,
                 "TelephoneNumber": x.TelephoneNumber,
-                "City": "City",
+                "City": x.City,
                 "Email": x.Email
             }
         }).then((res) => {
             if (res.data === "user not found" || res.data === "wrong password") {
                 alert("Email already registered")
-                setpagechanger(false)
+                setAnimation(false)
             } else {
                 console.log(res.data)
                 setClicked(true)
                 alert.show("successful")
-                setpagechanger(false)
+                setAnimation(false)
             }
         }).catch((err) => {
             alert.show("Please complete all the form")
@@ -56,10 +56,11 @@ export default function Special() {
                         </div>
                         <div className="basis-2/4 p flex justify-center items-center">
                             <Formik
-                                initialValues={{ email: "", FullName:"", city:""}}
+                                initialValues={{ email: "", FullName:"", city:"", Telephone:""}}
                                 validationSchema={Yup.object({
                                     FullName: Yup.string().required("Required"),
-                                   city: Yup.string().required("Required"),
+                                    Telephone:Yup.string().required("Required"),
+                                    city: Yup.string().required("Required"),
                                     email: Yup.string().email('invalid email address').required('Required'),
                                 })}
 
@@ -82,6 +83,10 @@ export default function Special() {
                                                 <Field style={{ width: 350 }} className=" rounded-md form-control py-3 px-4 border-black border-2 block mt-4" type="FullName" name="FullName" placeholder="Full Name" />
                                                 <div style={{ color: "red" }}>
                                                     <ErrorMessage name="FullName" />
+                                               </div>
+                                               <Field style={{ width: 350 }} className=" rounded-md form-control py-3 px-4 border-black border-2 block mt-4" type="number" name="Telephone" placeholder="Phone number" />
+                                                <div style={{ color: "red" }}>
+                                                    <ErrorMessage name="Telephone" />
                                                </div>
                                                 <Field
                                                 as="select"

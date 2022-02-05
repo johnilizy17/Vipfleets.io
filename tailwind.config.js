@@ -9,6 +9,11 @@ module.exports = {
 
       'lg': {'min': '1024px'}
  },
+ extend :{
+   backgroundImage: theme => ({
+     "car-img":"url('../asset/cars/pardo.jpg')"
+   })
+ },
  colors: {
   'brand-color': '#3e4095',
   'white-color': '#ffffff',

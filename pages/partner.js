@@ -6,10 +6,8 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import Dropzone from 'react-dropzone'
 import News from '../components/home/News'
 import { Card } from "@mui/material";
-import Avarter from '../asset/Avarter.jpg';
 import * as Yup from 'yup';
 import { AiOutlineCloudUpload } from 'react-icons/ai'
-import Preview from '../components/home/Preview'
 import { useDropzone } from 'react-dropzone';
 import Loading from '../components/Loading';
 
@@ -172,6 +170,7 @@ export default function Teams() {
                                                                         src={file.preview}
                                                                         width={"100%"}                                                
                                                                     height={"100%"}
+                                                                    alt="partner image"
                                                                     />
                                                                 </div>
                                                             </div>))}

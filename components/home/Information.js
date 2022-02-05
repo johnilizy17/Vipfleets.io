@@ -4,7 +4,10 @@ import customer2 from '../../asset/sent.jpg'
 import customer from '../../asset/customer.jpg'
 import { AiOutlineDoubleRight } from 'react-icons/ai'
 
+
 export default function CustomerFeedBack() {
+
+
     return (
         <>
             <div className=" sm:hidden flex flex-row ">
