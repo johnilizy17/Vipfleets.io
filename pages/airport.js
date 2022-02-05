@@ -11,9 +11,9 @@ import { Carousel } from 'react-responsive-carousel';
 export default function About() {
     return (
         <>
-            <div className="font-serif sm:-mb-10">
+            <div className="font-serif sm:-mb-40 lg:-mb-28">
                 <Navbar />
-                
+
                 <Image src={airport} alt="the teams image" />
                 <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
                     <div className="font-semibold lg:text-3xl sm:text-2xl">

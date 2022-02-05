@@ -15,8 +15,8 @@ export default function Ride() {
             <div>
                 <Image src={pardo} alt="pardo" />
             </div>
-            <div >
-                <div>
+            <div>
+                <div className="sm:-mb-60">
                     <div>
                         <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-40 sm:bottom-32">
                             <div className="lg:text-3xl sm:text-2xl text-center font-semibold">

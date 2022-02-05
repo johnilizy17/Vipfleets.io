@@ -5,7 +5,7 @@ import News from '../components/home/News'
 export default function Teams() {
     return (
         <>
-            <div className="font-serif  pb-5">
+            <div className="font-serif lg:-mb-8 sm:-mb-20">
                 <Navbar />
                 <Image src={teamspicture} alt="the teams image" />
                 <center className=" text-white-color lg:ml-20 sm:ml-5  relative lg:bottom-32 sm:bottom-32">
