@@ -10,6 +10,7 @@ import * as Yup from 'yup';
 import { AiOutlineCloudUpload } from 'react-icons/ai'
 import { useDropzone } from 'react-dropzone';
 import Loading from '../components/Loading';
+import axios from 'axios';
 
 const thumbsContainer = {
     display: 'flex',
